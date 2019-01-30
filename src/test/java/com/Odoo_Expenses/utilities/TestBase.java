@@ -1,6 +1,5 @@
 package com.Odoo_Expenses.utilities;
 
-import com.Odoo_Expenses.BrowserUtils;
 import com.aventstack.extentreports.ExtentReports;
 import com.aventstack.extentreports.ExtentTest;
 import com.aventstack.extentreports.reporter.ExtentHtmlReporter;
@@ -68,7 +67,7 @@ public abstract class TestBase {
         report.setSystemInfo("Browser", ConfigurationReader.getProperty("browser"));
         report.setSystemInfo("OS", System.getProperty("os.name"));
 
-        report.setSystemInfo("QA Engineer", "Aysenur Prljaca");
+        report.setSystemInfo("QA Engineer", "Tyson_06");
 
         htmlReporter.config().setDocumentTitle("Odoo_Expenses Reports");
         htmlReporter.config().setReportName("Odoo_Expenses Automated Test Reports");

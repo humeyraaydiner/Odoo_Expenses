@@ -6,7 +6,8 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 
-public class LoginPage {
+
+public class LoginPage{
     public LoginPage() {
         PageFactory.initElements(Driver.getDriver(), this);
     }
@@ -27,7 +28,7 @@ public class LoginPage {
     public WebElement loginButton;
 
 
-    public void signIn() {
+    public void signIn()  {
         demo.click();
         email.sendKeys(ConfigurationReader.getProperty("username"));
         password.sendKeys(ConfigurationReader.getProperty("password"));

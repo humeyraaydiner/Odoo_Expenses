@@ -1,6 +1,5 @@
-package com.Odoo_Expenses;
+package com.Odoo_Expenses.utilities;
 
-import com.Odoo_Expenses.utilities.Driver;
 import com.google.common.base.Function;
 import org.apache.commons.io.FileUtils;
 import org.openqa.selenium.*;
@@ -275,5 +274,4 @@ public class BrowserUtils {
             }
         }
     }
-
 }

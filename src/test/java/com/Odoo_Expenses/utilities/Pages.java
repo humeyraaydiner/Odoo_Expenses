@@ -1,9 +1,11 @@
 package com.Odoo_Expenses.utilities;
 
-import com.Odoo_Expenses.pages.LoginPage;
+import com.Odoo_Expenses.pages.*;
+
+
 
 public class Pages {
-    public class Pages {
+
         private LoginPage loginPage;
         private MainPage mainPage;
         private ExpensesPage expensesPage;
