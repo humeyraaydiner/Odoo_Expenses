@@ -33,6 +33,7 @@ public class Pages {
         if (expensesPage== null) {
             expensesPage = new ExpensesPage();
         }
+
         return expensesPage;
     }
 
