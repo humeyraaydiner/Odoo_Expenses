@@ -24,12 +24,12 @@ public class Pages {
             return mainPage;
         }
 
-        public ExpensesPage expensesPage() {
-            if (expensesPage== null) {
-                expensesPage = new ExpensesPage();
-            }
-            return expensesPage;
+           public ExpensesPage expensesPage() {
+        if (expensesPage== null) {
+            expensesPage = new ExpensesPage();
         }
+        return expensesPage;
+    }
 
 
 }

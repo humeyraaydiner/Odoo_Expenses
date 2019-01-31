@@ -17,10 +17,9 @@ public class logIn extends TestBase {
       extentLogger = report.createTest("Login Test.");
       extentLogger.info("Sign in");
       pages.login().signIn();
-      WebDriverWait wait = new WebDriverWait(driver, 5);
+      WebDriverWait wait = new WebDriverWait(driver, 10);
       extentLogger.info("Click on 'Expenses'. ");
       wait.until(ExpectedConditions.elementToBeClickable(pages.main().ExpensesButton)).click();
-
       //fail();
       extentLogger.pass("Login Test Passed...");
 
