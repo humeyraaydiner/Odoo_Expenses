@@ -9,6 +9,11 @@ public class Pages {
         private LoginPage loginPage;
         private MainPage mainPage;
         private ExpensesPage expensesPage;
+        private MExpensesToSummitPage  mExpensesToSummitPage;
+
+
+
+        private ExpensesAnalysisPage expensesAnalysisPage;
 
         public LoginPage login() {
             if (loginPage == null) {
@@ -31,5 +36,19 @@ public class Pages {
             return expensesPage;
         }
 
+    public ExpensesAnalysisPage  expensesAnalysisPage() {
+        if (expensesAnalysisPage== null) {
+            expensesAnalysisPage= new ExpensesAnalysisPage();
+        }
+        return expensesAnalysisPage;
+    }
+
+
+    public MExpensesToSummitPage  mExpensesToSummitPage() {
+        if (mExpensesToSummitPage== null) {
+            mExpensesToSummitPage = new MExpensesToSummitPage();
+        }
+        return mExpensesToSummitPage;
+    }
 
 }

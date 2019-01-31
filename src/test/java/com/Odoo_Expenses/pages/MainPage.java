@@ -10,6 +10,6 @@ public class MainPage {
         PageFactory.initElements(Driver.getDriver(), this);
     }
 
-    @FindBy(xpath = "(//a[@class='oe_menu_toggler'])[6]")
+    @FindBy(xpath = "(//ul/li[9]/a/span")
      public WebElement ExpensesButton;
 }
