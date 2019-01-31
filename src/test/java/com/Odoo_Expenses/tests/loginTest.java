@@ -1,4 +1,4 @@
-package com.Odoo_Expenses.tests.smoke_tests;
+package com.Odoo_Expenses.tests;
 
 import com.Odoo_Expenses.utilities.TestBase;
 import org.openqa.selenium.support.ui.ExpectedConditions;
