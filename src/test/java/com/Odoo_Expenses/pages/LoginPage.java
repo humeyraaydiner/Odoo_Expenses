@@ -2,12 +2,13 @@ package com.Odoo_Expenses.pages;
 
 import com.Odoo_Expenses.utilities.ConfigurationReader;
 import com.Odoo_Expenses.utilities.Driver;
+import com.Odoo_Expenses.utilities.Pages;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 
 
-public class LoginPage{
+public class LoginPage extends Pages {
     public LoginPage() {
         PageFactory.initElements(Driver.getDriver(), this);
     }
