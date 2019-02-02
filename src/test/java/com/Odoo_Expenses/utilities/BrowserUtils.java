@@ -5,6 +5,7 @@ import org.apache.commons.io.FileUtils;
 import org.openqa.selenium.*;
 import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.ui.*;
+import org.testng.Assert;
 
 import java.io.File;
 import java.io.IOException;
@@ -19,6 +20,7 @@ import static org.testng.Assert.assertTrue;
 import static org.testng.Assert.fail;
 
 public class BrowserUtils {
+
     public static void wait(int secs) {
         try {
             Thread.sleep(1000 * secs);
@@ -173,9 +175,9 @@ public class BrowserUtils {
      */
     public static void verifyElementDisplayed(WebElement element) {
         try {
-            assertTrue(element.isDisplayed(), "Element not visible: "+element);
+            Assert.assertTrue(element.isDisplayed(), "Element not visible: "+element);
         } catch (NoSuchElementException e) {
-            fail("Element not found: " + element);
+           fail("Element not found: " + element);
 
         }
     }
