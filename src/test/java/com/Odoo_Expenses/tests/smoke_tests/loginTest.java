@@ -21,11 +21,17 @@ public class loginTest extends TestBase {
         extentLogger.info("Click on 'Expenses'. ");
 
         // Thread.sleep(5000);
+<<<<<<< HEAD
         BrowserUtils.waitForPageToLoad(5000);
         wait.until(ExpectedConditions.invisibilityOfElementLocated(By.className("o_loading")));
+=======
+       // BrowserUtils.waitForPageToLoad(5000);
+
+       wait.until(ExpectedConditions.invisibilityOfElementLocated(By.className("o_loading")));
+>>>>>>> 5c61dc764df5d7cb45d9b1a6b4f9ede5d601ef08
 
         wait.until(ExpectedConditions.visibilityOf(pages.main().ExpensesButton)).click();
-        //fail();
+
         extentLogger.pass("Login Test Passed...");
 
     }

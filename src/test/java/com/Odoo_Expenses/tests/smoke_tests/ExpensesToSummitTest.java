@@ -1,17 +1,37 @@
 package com.Odoo_Expenses.tests.smoke_tests;
 
 import com.Odoo_Expenses.utilities.BrowserUtils;
+import com.Odoo_Expenses.utilities.Driver;
 import com.Odoo_Expenses.utilities.TestBase;
 import org.openqa.selenium.By;
+import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
+import org.testng.Assert;
 import org.testng.annotations.Test;
 import com.Odoo_Expenses.tests.smoke_tests.loginTest;
 
+import java.sql.SQLOutput;
+
 
 public class ExpensesToSummitTest extends TestBase {
-    @Test
 
+    @Test
+    public void verifyElementDisplay()  {
+
+        extentLogger = report.createTest("verifyElementDisplay Test");
+
+        extentLogger.info("Sing in as an expenses Menager");
+
+        pages.login().signIn();
+
+        BrowserUtils.wait(5);
+
+        extentLogger.info(" Click on Expenses button");
+        pages.main().ExpensesButton.click();
+
+
+<<<<<<< HEAD
     public void ExpensesToSummit()  {
         pages.login().signIn();
 
@@ -38,16 +58,76 @@ public class ExpensesToSummitTest extends TestBase {
 
 
 
+=======
+        BrowserUtils.wait(5);
+>>>>>>> 5c61dc764df5d7cb45d9b1a6b4f9ede5d601ef08
+
+
+        //BrowserUtils.wait(5);
+
+       // System.out.println(pages.mExpensesToSummitPage().MyExpensesTitle.getText());
+      // Assert.assertEquals(pages.mExpensesToSummitPage().MyExpensesTitle.getText(),MyExpensesText);
+
+
+        extentLogger.info("verify 'MY Expenses' functionality is visible ");
+        BrowserUtils.verifyElementDisplayed(pages.mExpensesToSummitPage().MyExpensesTitle);
+
+
+        extentLogger.info("verify 'Expenses to Summit' functionality is visible ");
+        BrowserUtils.verifyElementDisplayed(pages.mExpensesToSummitPage().ExpensesToSummitTitle);
+
+        extentLogger.info("Verify that import functinalty is visisable");
+        BrowserUtils.verifyElementDisplayed(pages.mExpensesToSummitPage().importButton);
 
 
 
+<<<<<<< HEAD
+=======
+    }
+    @Test
+    public void verifyCreateFunctionality(){
+
+        pages.login().signIn();
+
+        BrowserUtils.wait(5);
+
+        pages.main().ExpensesButton.click();
+
+        Driver.getDriver().manage().window().maximize();
+        BrowserUtils.wait(5);
+
+
+        extentLogger = report.createTest("verifyCreateFunctionality Test ");
+        extentLogger.info("Verify that create button is visiable");
+
+        System.out.println(pages.mExpensesToSummitPage().createButton.isDisplayed());
+
+
+        extentLogger.info("create button is clickable");
+        pages.mExpensesToSummitPage().createButton.click();
+   }
+@Test
+    public void verifyImportFunctionality(){
+
+    pages.login().signIn();
+
+    BrowserUtils.wait(5);
+
+    pages.main().ExpensesButton.click();
+
+    BrowserUtils.wait(5);
+    Driver.getDriver().manage().window().maximize();
+
+    extentLogger = report.createTest("verifyImportFunctionality Test");
+    extentLogger.info("Verify That import button is visiable");
+
+    System.out.println(pages.mExpensesToSummitPage().createButton.isDisplayed());
+
+    extentLogger.info("Verify that import button is clickable");
 
 
 
-
-
-
-
-
+}
+>>>>>>> 5c61dc764df5d7cb45d9b1a6b4f9ede5d601ef08
 }
 

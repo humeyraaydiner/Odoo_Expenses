@@ -34,16 +34,26 @@ public class Pages {
            return expensesPage;
     }
 
+<<<<<<< HEAD
     public ExpensesAnalysisPage  expensesAnalysisPage() {
             if (expensesAnalysisPage==null) {
+=======
+         public ExpensesAnalysisPage  expensesAnalysisPage() {
+            if (expensesAnalysisPage== null) {
+>>>>>>> 5c61dc764df5d7cb45d9b1a6b4f9ede5d601ef08
             expensesAnalysisPage= new ExpensesAnalysisPage();
         }
-        return expensesAnalysisPage;
+           return expensesAnalysisPage;
     }
 
 
+<<<<<<< HEAD
     public MExpensesToSummitPage  mExpensesToSummitPage() {
            if (mExpensesToSummitPage==null) {
+=======
+          public MExpensesToSummitPage  mExpensesToSummitPage() {
+           if (mExpensesToSummitPage== null) {
+>>>>>>> 5c61dc764df5d7cb45d9b1a6b4f9ede5d601ef08
             mExpensesToSummitPage = new MExpensesToSummitPage();
         }
             return mExpensesToSummitPage;

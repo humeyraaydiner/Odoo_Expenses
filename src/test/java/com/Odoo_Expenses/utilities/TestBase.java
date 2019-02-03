@@ -13,7 +13,11 @@ import org.testng.annotations.BeforeTest;
 import java.io.IOException;
 import java.util.concurrent.TimeUnit;
 
+<<<<<<< HEAD
 public  class TestBase {
+=======
+public class TestBase {
+>>>>>>> 5c61dc764df5d7cb45d9b1a6b4f9ede5d601ef08
     protected WebDriver driver;
     protected Pages pages;
 

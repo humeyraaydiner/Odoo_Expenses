@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="2d404566-02a5-4794-9f68-c3c4ce2acb0d" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+<<<<<<< HEAD
       <change beforePath="$PROJECT_DIR$/src/test/java/com/Odoo_Expenses/pages/ExpensesAnalysisPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/Odoo_Expenses/pages/ExpensesAnalysisPage.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/com/Odoo_Expenses/pages/ExpensesPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/Odoo_Expenses/pages/ExpensesPage.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/com/Odoo_Expenses/pages/MExpensesToSummitPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/Odoo_Expenses/pages/MExpensesToSummitPage.java" afterDir="false" />
@@ -61,6 +62,39 @@
       <change beforePath="$PROJECT_DIR$/test-output/ScreenshotslogInTest20190201123047.png" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/test-output/ScreenshotstoTry20190130044030.png" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/test-output/report.html" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/report.html" afterDir="false" />
+=======
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/Odoo_Expenses/pages/ExpensesPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/Odoo_Expenses/pages/ExpensesPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/Odoo_Expenses/pages/MExpensesToSummitPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/Odoo_Expenses/pages/MExpensesToSummitPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/Odoo_Expenses/tests/smoke_tests/ExpensesToSummitTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/Odoo_Expenses/tests/smoke_tests/ExpensesToSummitTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/Odoo_Expenses/pages/ExpensesPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/Odoo_Expenses/pages/ExpensesPage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/Odoo_Expenses/pages/MExpensesToSummitPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/Odoo_Expenses/pages/MExpensesToSummitPage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/Odoo_Expenses/tests/smoke_tests/ExpensesToSummitTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/Odoo_Expenses/tests/smoke_tests/ExpensesToSummitTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/ScreenshotslogInTest20190202060618.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/ScreenshotsverifyElementDisplay20190201061809.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/ScreenshotsverifyElementDisplay20190201062229.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/ScreenshotsverifyElementDisplay20190201062326.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/ScreenshotsverifyElementDisplay20190201062438.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/ScreenshotsverifyElementDisplay20190201062700.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/ScreenshotsverifyElementDisplay20190201062755.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/ScreenshotsverifyElementDisplay20190201063205.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/ScreenshotsverifyElementDisplay20190201063237.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/ScreenshotsverifyElementDisplay20190201065306.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/ScreenshotsverifyElementDisplay20190201065415.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/ScreenshotsverifyElementDisplay20190201065750.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/ScreenshotsverifyElementDisplay20190201070448.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/ScreenshotsverifyElementDisplay20190201071159.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/ScreenshotsverifyElementDisplay20190201071252.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/ScreenshotsverifyElementDisplay20190201081518.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/ScreenshotsverifyElementDisplay20190201081906.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/ScreenshotsverifyElementDisplay20190201082025.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/ScreenshotsverifyElementDisplay20190201082630.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/ScreenshotsverifyElementDisplay20190201093022.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/ScreenshotsverifyElementDisplay20190201093117.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/ScreenshotsverifyElementDisplay20190201093212.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/ScreenshotsverifyElementDisplay20190201093301.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/ScreenshotsverifyElementDisplay20190201093403.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/report.html" beforeDir="false" />
+>>>>>>> 5c61dc764df5d7cb45d9b1a6b4f9ede5d601ef08
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -123,25 +157,30 @@
     <session id="457428895">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="5" />
-          <entry key="project.open.time.0" value="3" />
-          <entry key="project.open.time.3" value="1" />
-          <entry key="project.open.time.4" value="1" />
-          <entry key="project.opened" value="5" />
+          <entry key="project.closed" value="17" />
+          <entry key="project.open.time.0" value="9" />
+          <entry key="project.open.time.1" value="2" />
+          <entry key="project.open.time.3" value="2" />
+          <entry key="project.open.time.4" value="4" />
+          <entry key="project.open.time.8" value="1" />
+          <entry key="project.opened" value="18" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="CLASS" value="1" />
-          <entry key="HTML" value="1" />
-          <entry key="Image" value="7" />
-          <entry key="JAVA" value="29" />
-          <entry key="Properties" value="1" />
+          <entry key="HTML" value="2" />
+          <entry key="IDEA_MODULE" value="1" />
+          <entry key="Image" value="19" />
+          <entry key="JAVA" value="47" />
+          <entry key="PLAIN_TEXT" value="1" />
+          <entry key="Properties" value="2" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="1188" />
+          <entry key="JAVA" value="2854" />
+          <entry key="PLAIN_TEXT" value="36" />
         </counts>
       </usages-collector>
     </session>
@@ -161,28 +200,59 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/com/Odoo_Expenses/utilities/Pages.java">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/Odoo_Expenses/tests/smoke_tests/ExpensesToSummitTest.java">
           <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
             <state relative-caret-position="170">
               <caret line="10" column="61" selection-start-line="10" selection-start-column="61" selection-end-line="10" selection-end-column="61" />
+=======
+            <state relative-caret-position="446">
+              <caret line="95" selection-start-line="95" selection-end-line="95" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+>>>>>>> 5c61dc764df5d7cb45d9b1a6b4f9ede5d601ef08
             </state>
           </provider>
         </entry>
       </file>
+<<<<<<< HEAD
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/com/Odoo_Expenses/utilities/BrowserUtils.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="1785">
               <caret line="121" column="76" selection-start-line="121" selection-start-column="76" selection-end-line="121" selection-end-column="76" />
+=======
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/Odoo_Expenses/utilities/TestBase.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-600">
+              <caret line="15" column="22" selection-start-line="15" selection-start-column="22" selection-end-line="15" selection-end-column="22" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+>>>>>>> 5c61dc764df5d7cb45d9b1a6b4f9ede5d601ef08
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
+<<<<<<< HEAD
         <entry file="file://$PROJECT_DIR$/src/test/java/com/Odoo_Expenses/tests/smoke_tests/loginTest.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="306">
               <caret line="23" column="8" selection-start-line="23" selection-start-column="8" selection-end-line="25" />
+=======
+        <entry file="file://$PROJECT_DIR$/test-output/report.html">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/Odoo_Expenses/utilities/BrowserUtils.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1290">
+              <caret line="103" column="9" selection-start-line="103" selection-start-column="9" selection-end-line="103" selection-end-column="9" />
+>>>>>>> 5c61dc764df5d7cb45d9b1a6b4f9ede5d601ef08
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -191,6 +261,7 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
+<<<<<<< HEAD
         <entry file="file://$PROJECT_DIR$/src/test/java/com/Odoo_Expenses/tests/smoke_tests/ExpensesAnalysis.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="286">
@@ -198,15 +269,28 @@
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
+=======
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/Odoo_Expenses/pages/MainPage.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="165">
+              <caret line="22" selection-start-line="22" selection-end-line="22" />
+>>>>>>> 5c61dc764df5d7cb45d9b1a6b4f9ede5d601ef08
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
+<<<<<<< HEAD
         <entry file="file://$PROJECT_DIR$/src/test/java/com/Odoo_Expenses/pages/LoginPage.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="493">
               <caret line="36" selection-start-line="36" selection-end-line="36" />
+=======
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/Odoo_Expenses/tests/smoke_tests/loginTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="285">
+              <caret line="19" column="59" selection-start-line="19" selection-start-column="8" selection-end-line="19" selection-end-column="59" />
+>>>>>>> 5c61dc764df5d7cb45d9b1a6b4f9ede5d601ef08
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#369#370#0" expanded="true" />
@@ -217,19 +301,34 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
+<<<<<<< HEAD
         <entry file="file://$PROJECT_DIR$/src/test/java/com/Odoo_Expenses/utilities/ConfigurationReader.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="68">
               <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+=======
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/Odoo_Expenses/pages/LoginPage.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="90">
+              <caret line="13" column="5" selection-start-line="11" selection-start-column="3" selection-end-line="13" selection-end-column="5" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+>>>>>>> 5c61dc764df5d7cb45d9b1a6b4f9ede5d601ef08
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/com/Odoo_Expenses/pages/MainPage.java">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/Odoo_Expenses/pages/MExpensesToSummitPage.java">
           <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
             <state relative-caret-position="68">
               <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
+=======
+            <state relative-caret-position="165">
+              <caret line="17" column="36" selection-start-line="17" selection-start-column="36" selection-end-line="17" selection-end-column="36" />
+>>>>>>> 5c61dc764df5d7cb45d9b1a6b4f9ede5d601ef08
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#549#550#0" expanded="true" />
@@ -239,6 +338,7 @@
           </provider>
         </entry>
       </file>
+<<<<<<< HEAD
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/com/Odoo_Expenses/utilities/TestBase.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -247,11 +347,19 @@
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
+=======
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/Odoo_Expenses/pages/ExpensesAnalysisPage.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="30">
+              <caret line="2" column="29" selection-start-line="2" selection-start-column="29" selection-end-line="2" selection-end-column="29" />
+>>>>>>> 5c61dc764df5d7cb45d9b1a6b4f9ede5d601ef08
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
+<<<<<<< HEAD
         <entry file="file://$PROJECT_DIR$/src/test/java/com/Odoo_Expenses/pages/ExpensesAnalysisPage.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="340">
@@ -259,6 +367,12 @@
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
+=======
+        <entry file="file://$PROJECT_DIR$/.gitignore">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="45">
+              <caret line="3" selection-start-line="3" selection-end-line="3" />
+>>>>>>> 5c61dc764df5d7cb45d9b1a6b4f9ede5d601ef08
             </state>
           </provider>
         </entry>
@@ -302,6 +416,14 @@
         <option value="$PROJECT_DIR$/src/test/java/com/Odoo_Expenses/tests/aaaa.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/Odoo_Expenses/pages/LoginPage.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/Odoo_Expenses/pages/MainPage.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/Odoo_Expenses/utilities/Driver.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/Odoo_Expenses/utilities/BrowserUtils.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/Odoo_Expenses/utilities/Pages.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/Odoo_Expenses/utilities/TestBase.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/Odoo_Expenses/tests/smoke_tests/loginTest.java" />
+        <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/src/test/java/com/Odoo_Expenses/pages/ExpensesPage.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/Odoo_Expenses/pages/MExpensesToSummitPage.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/Odoo_Expenses/tests/smoke_tests/ExpensesToSummitTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/Odoo_Expenses/utilities/BrowserUtils.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/Odoo_Expenses/tests/smoke_tests/loginTest.java" />
@@ -348,11 +470,18 @@
       <select />
     </treeState>
   </component>
+<<<<<<< HEAD
   <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="-15" />
     <option name="y" value="-18" />
     <option name="width" value="1947" />
     <option name="height" value="1038" />
+=======
+  <component name="ProjectFrameBounds" extendedState="1">
+    <option name="y" value="23" />
+    <option name="width" value="1680" />
+    <option name="height" value="947" />
+>>>>>>> 5c61dc764df5d7cb45d9b1a6b4f9ede5d601ef08
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -360,6 +489,11 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+<<<<<<< HEAD
+=======
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
+>>>>>>> 5c61dc764df5d7cb45d9b1a6b4f9ede5d601ef08
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -440,6 +574,7 @@
         </subPane>
         <option name="show-excluded-files" value="false" />
       </pane>
+<<<<<<< HEAD
       <pane id="PackagesPane" />
       <pane id="Scope" />
     </panes>
@@ -448,6 +583,17 @@
     <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1549228664856" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/src/test/java/com/Odoo_Expenses/tests/smoke_tests" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+=======
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="SearchEverywhereHistoryKey" value="plu&#9;ACTION&#9;WelcomeScreen.Plugins&#10;plugins&#9;ACTION&#9;WelcomeScreen.Plugins" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1549230636896" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/test/java/com/Odoo_Expenses/tests/smoke_tests" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.2" />
+>>>>>>> 5c61dc764df5d7cb45d9b1a6b4f9ede5d601ef08
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -461,8 +607,13 @@
       </list>
     </option>
   </component>
+<<<<<<< HEAD
   <component name="RunManager" selected="TestNG.ExpensesAnalysis.verifyMeasureDropDownButton">
     <configuration name="ExpensesAnalysis.expensesAnalysis" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
+=======
+  <component name="RunManager" selected="TestNG.ExpensesToSummitTest.verifyCreateFunctionality">
+    <configuration name="ExpensesToSummitTest" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
+>>>>>>> 5c61dc764df5d7cb45d9b1a6b4f9ede5d601ef08
       <module name="Odoo_Expenses" />
       <extension name="coverage">
         <pattern>
@@ -480,7 +631,11 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+<<<<<<< HEAD
     <configuration name="ExpensesAnalysis.verifyExpensesAnalysis" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
+=======
+    <configuration name="ExpensesToSummitTest.verifyCreateFunctionality" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
+>>>>>>> 5c61dc764df5d7cb45d9b1a6b4f9ede5d601ef08
       <module name="Odoo_Expenses" />
       <extension name="coverage">
         <pattern>
@@ -489,8 +644,13 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.Odoo_Expenses.tests.smoke_tests" />
+<<<<<<< HEAD
       <option name="MAIN_CLASS_NAME" value="com.Odoo_Expenses.tests.smoke_tests.ExpensesAnalysis" />
       <option name="METHOD_NAME" value="verifyExpensesAnalysis" />
+=======
+      <option name="MAIN_CLASS_NAME" value="com.Odoo_Expenses.tests.smoke_tests.ExpensesToSummitTest" />
+      <option name="METHOD_NAME" value="verifyCreateFunctionality" />
+>>>>>>> 5c61dc764df5d7cb45d9b1a6b4f9ede5d601ef08
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -498,7 +658,11 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+<<<<<<< HEAD
     <configuration name="ExpensesAnalysis.verifyMeasureDropDownButton" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
+=======
+    <configuration name="ExpensesToSummitTest.verifyElementDisplay" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
+>>>>>>> 5c61dc764df5d7cb45d9b1a6b4f9ede5d601ef08
       <module name="Odoo_Expenses" />
       <extension name="coverage">
         <pattern>
@@ -507,8 +671,13 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.Odoo_Expenses.tests.smoke_tests" />
+<<<<<<< HEAD
       <option name="MAIN_CLASS_NAME" value="com.Odoo_Expenses.tests.smoke_tests.ExpensesAnalysis" />
       <option name="METHOD_NAME" value="verifyMeasureDropDownButton" />
+=======
+      <option name="MAIN_CLASS_NAME" value="com.Odoo_Expenses.tests.smoke_tests.ExpensesToSummitTest" />
+      <option name="METHOD_NAME" value="verifyElementDisplay" />
+>>>>>>> 5c61dc764df5d7cb45d9b1a6b4f9ede5d601ef08
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -516,7 +685,11 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+<<<<<<< HEAD
     <configuration name="ExpensesAnalysis.verifyReporting" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
+=======
+    <configuration name="ExpensesToSummitTest.verifyImportFunctionality" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
+>>>>>>> 5c61dc764df5d7cb45d9b1a6b4f9ede5d601ef08
       <module name="Odoo_Expenses" />
       <extension name="coverage">
         <pattern>
@@ -525,8 +698,13 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.Odoo_Expenses.tests.smoke_tests" />
+<<<<<<< HEAD
       <option name="MAIN_CLASS_NAME" value="com.Odoo_Expenses.tests.smoke_tests.ExpensesAnalysis" />
       <option name="METHOD_NAME" value="verifyReporting" />
+=======
+      <option name="MAIN_CLASS_NAME" value="com.Odoo_Expenses.tests.smoke_tests.ExpensesToSummitTest" />
+      <option name="METHOD_NAME" value="verifyImportFunctionality" />
+>>>>>>> 5c61dc764df5d7cb45d9b1a6b4f9ede5d601ef08
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -534,7 +712,11 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+<<<<<<< HEAD
     <configuration name="ExpensesAnalysis.verifyReportingTitle" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
+=======
+    <configuration name="loginTest.logInTest (2)" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
+>>>>>>> 5c61dc764df5d7cb45d9b1a6b4f9ede5d601ef08
       <module name="Odoo_Expenses" />
       <extension name="coverage">
         <pattern>
@@ -543,8 +725,13 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.Odoo_Expenses.tests.smoke_tests" />
+<<<<<<< HEAD
       <option name="MAIN_CLASS_NAME" value="com.Odoo_Expenses.tests.smoke_tests.ExpensesAnalysis" />
       <option name="METHOD_NAME" value="verifyReportingTitle" />
+=======
+      <option name="MAIN_CLASS_NAME" value="com.Odoo_Expenses.tests.smoke_tests.loginTest" />
+      <option name="METHOD_NAME" value="logInTest" />
+>>>>>>> 5c61dc764df5d7cb45d9b1a6b4f9ede5d601ef08
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -553,6 +740,7 @@
       </method>
     </configuration>
     <list>
+<<<<<<< HEAD
       <item itemvalue="TestNG.ExpensesAnalysis.expensesAnalysis" />
       <item itemvalue="TestNG.ExpensesAnalysis.verifyReporting" />
       <item itemvalue="TestNG.ExpensesAnalysis.verifyReportingTitle" />
@@ -566,6 +754,21 @@
         <item itemvalue="TestNG.ExpensesAnalysis.verifyReportingTitle" />
         <item itemvalue="TestNG.ExpensesAnalysis.verifyReporting" />
         <item itemvalue="TestNG.ExpensesAnalysis.expensesAnalysis" />
+=======
+      <item itemvalue="TestNG.loginTest.logInTest (2)" />
+      <item itemvalue="TestNG.ExpensesToSummitTest" />
+      <item itemvalue="TestNG.ExpensesToSummitTest.verifyElementDisplay" />
+      <item itemvalue="TestNG.ExpensesToSummitTest.verifyCreateFunctionality" />
+      <item itemvalue="TestNG.ExpensesToSummitTest.verifyImportFunctionality" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="TestNG.ExpensesToSummitTest.verifyCreateFunctionality" />
+        <item itemvalue="TestNG.ExpensesToSummitTest.verifyElementDisplay" />
+        <item itemvalue="TestNG.ExpensesToSummitTest.verifyImportFunctionality" />
+        <item itemvalue="TestNG.loginTest.logInTest (2)" />
+        <item itemvalue="TestNG.ExpensesToSummitTest" />
+>>>>>>> 5c61dc764df5d7cb45d9b1a6b4f9ede5d601ef08
       </list>
     </recent_temporary>
   </component>
@@ -583,6 +786,7 @@
     <servers />
   </component>
   <component name="TestHistory">
+<<<<<<< HEAD
     <history-entry file="ExpensesAnalysis_verifyMeasureDropDownButton - 2019.02.02 at 23h 20m 49s.xml">
       <configuration name="ExpensesAnalysis.verifyMeasureDropDownButton" configurationId="TestNG" />
     </history-entry>
@@ -612,6 +816,37 @@
     </history-entry>
     <history-entry file="ExpensesAnalysis_verifyMeasureDropDownButton - 2019.02.03 at 16h 10m 33s.xml">
       <configuration name="ExpensesAnalysis.verifyMeasureDropDownButton" configurationId="TestNG" />
+=======
+    <history-entry file="ExpensesToSummitTest_verifyCreateFunctionality - 2019.02.03 at 00h 11m 22s.xml">
+      <configuration name="ExpensesToSummitTest.verifyCreateFunctionality" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="ExpensesToSummitTest_verifyCreateFunctionality - 2019.02.03 at 00h 12m 23s.xml">
+      <configuration name="ExpensesToSummitTest.verifyCreateFunctionality" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="ExpensesToSummitTest_verifyCreateFunctionality - 2019.02.03 at 00h 12m 52s.xml">
+      <configuration name="ExpensesToSummitTest.verifyCreateFunctionality" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="ExpensesToSummitTest_verifyCreateFunctionality - 2019.02.03 at 00h 13m 59s.xml">
+      <configuration name="ExpensesToSummitTest.verifyCreateFunctionality" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="ExpensesToSummitTest_verifyCreateFunctionality - 2019.02.03 at 00h 14m 37s.xml">
+      <configuration name="ExpensesToSummitTest.verifyCreateFunctionality" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="ExpensesToSummitTest_verifyImportFunctionality - 2019.02.03 at 00h 15m 24s.xml">
+      <configuration name="ExpensesToSummitTest.verifyImportFunctionality" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="ExpensesToSummitTest_verifyImportFunctionality - 2019.02.03 at 00h 15m 52s.xml">
+      <configuration name="ExpensesToSummitTest.verifyImportFunctionality" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="ExpensesToSummitTest_verifyElementDisplay - 2019.02.03 at 14h 12m 38s.xml">
+      <configuration name="ExpensesToSummitTest.verifyElementDisplay" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="ExpensesToSummitTest_verifyCreateFunctionality - 2019.02.03 at 15h 58m 12s.xml">
+      <configuration name="ExpensesToSummitTest.verifyCreateFunctionality" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="ExpensesToSummitTest_verifyCreateFunctionality - 2019.02.03 at 16h 00m 41s.xml">
+      <configuration name="ExpensesToSummitTest.verifyCreateFunctionality" configurationId="TestNG" />
+>>>>>>> 5c61dc764df5d7cb45d9b1a6b4f9ede5d601ef08
     </history-entry>
   </component>
   <component name="TodoView">
@@ -624,7 +859,11 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
+<<<<<<< HEAD
     <frame x="-7" y="-7" width="1295" height="695" extended-state="6" />
+=======
+    <frame x="0" y="23" width="1680" height="947" extended-state="1" />
+>>>>>>> 5c61dc764df5d7cb45d9b1a6b4f9ede5d601ef08
     <editor active="true" />
     <layout>
       <window_info id="Designer" order="0" />
@@ -632,19 +871,34 @@
       <window_info id="Capture Tool" order="2" />
       <window_info id="Favorites" order="3" side_tool="true" />
       <window_info id="Image Layers" order="4" />
+<<<<<<< HEAD
       <window_info active="true" content_ui="combo" id="Project" order="5" visible="true" weight="0.33927125" />
       <window_info id="Structure" order="6" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="TODO" order="0" weight="0.32982457" />
       <window_info anchor="bottom" id="Terminal" order="1" weight="0.3268206" />
+=======
+      <window_info active="true" content_ui="combo" id="Project" order="5" visible="true" weight="0.1984127" />
+      <window_info id="Structure" order="6" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="TODO" order="0" weight="0.32982457" />
+      <window_info anchor="bottom" id="Terminal" order="1" weight="0.32712457" />
+>>>>>>> 5c61dc764df5d7cb45d9b1a6b4f9ede5d601ef08
       <window_info anchor="bottom" id="Event Log" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="3" show_stripe_button="false" />
       <window_info anchor="bottom" id="Message" order="4" />
       <window_info anchor="bottom" id="Find" order="5" weight="0.32982457" />
+<<<<<<< HEAD
       <window_info anchor="bottom" id="Run" order="6" weight="0.24689165" />
       <window_info anchor="bottom" id="Debug" order="7" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="8" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="9" weight="0.4" />
       <window_info anchor="bottom" id="Messages" order="10" weight="0.3285968" />
+=======
+      <window_info anchor="bottom" id="Run" order="6" visible="true" weight="0.37309942" />
+      <window_info anchor="bottom" id="Debug" order="7" weight="0.39310345" />
+      <window_info anchor="bottom" id="Cvs" order="8" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="9" weight="0.4" />
+      <window_info anchor="bottom" id="Messages" order="10" weight="0.32945284" />
+>>>>>>> 5c61dc764df5d7cb45d9b1a6b4f9ede5d601ef08
       <window_info anchor="right" id="Capture Analysis" order="0" />
       <window_info anchor="right" id="Theme Preview" order="1" />
       <window_info anchor="right" id="Palette&#9;" order="2" />
@@ -687,6 +941,7 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="340">
@@ -712,16 +967,16 @@
     <entry file="file://$PROJECT_DIR$/test-output/ScreenshotstoTry20190130044030.png" />
     <entry file="file://$PROJECT_DIR$/test-output/ScreenshotslogInTest20190131123143.png" />
     <entry file="file://$PROJECT_DIR$/test-output/ScreenshotslogInTest20190131123219.png" />
+=======
+>>>>>>> 5c61dc764df5d7cb45d9b1a6b4f9ede5d601ef08
     <entry file="file://$PROJECT_DIR$/test-output/ScreenshotslogInTest20190131122945.png" />
     <entry file="file://$PROJECT_DIR$/test-output/ScreenshotslogInTest20190131014759.png" />
     <entry file="file://$PROJECT_DIR$/src/test/java/com/Odoo_Expenses/tests/testToTitle.java" />
-    <entry file="file://$PROJECT_DIR$/test-output/report.html">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/Odoo_Expenses/tests/logIn.java" />
     <entry file="file://$PROJECT_DIR$/src/test/java/com/Odoo_Expenses/tests/smoke_tests/aaa.java" />
     <entry file="file://$PROJECT_DIR$/test-output/ScreenshotsExpensesToSummit20190131060158.png" />
     <entry file="jar://$MAVEN_REPOSITORY$/org/seleniumhq/selenium/selenium-support/3.141.59/selenium-support-3.141.59.jar!/org/openqa/selenium/support/ui/ExpectedConditions.class">
+<<<<<<< HEAD
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="182">
           <caret line="192" column="48" selection-start-line="192" selection-start-column="48" selection-end-line="192" selection-end-column="48" />
@@ -731,14 +986,56 @@
     <entry file="file://$PROJECT_DIR$/src/test/java/com/Odoo_Expenses/tests/loginTest.java" />
     <entry file="file://$PROJECT_DIR$/src/test/java/com/Odoo_Expenses/tests/smoke_tests/ExpesesToSubmitTest.java" />
     <entry file="file://$PROJECT_DIR$/src/test/java/com/Odoo_Expenses/tests/DefaultHandled.java">
+=======
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="182">
+          <caret line="192" column="48" selection-start-line="192" selection-start-column="48" selection-end-line="192" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/Odoo_Expenses/tests/loginTest.java" />
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/Odoo_Expenses/tests/smoke_tests/ExpesesToSubmitTest.java" />
+    <entry file="file://$PROJECT_DIR$/test-output/ScreenshotsExpensesToSummit20190201012243.png" />
+    <entry file="file://$PROJECT_DIR$/test-output/ScreenshotsExpensesToSummit20190201012425.png" />
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/Odoo_Expenses/tests/DefaultHandled.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
           <caret line="4" selection-start-line="4" selection-end-line="4" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/Odoo_Expenses/utilities/Driver.java">
+    <entry file="file://$PROJECT_DIR$/test-output/ScreenshotsverifyElementDisplay20190201061149.png" />
+    <entry file="file://$PROJECT_DIR$/test-output/ScreenshotsverifyElementDisplay20190201040127.png" />
+    <entry file="file://$PROJECT_DIR$/test-output/ScreenshotsverifyElementDisplay20190201040457.png" />
+    <entry file="file://$PROJECT_DIR$/test-output/ScreenshotsverifyElementDisplay20190201041822.png" />
+    <entry file="file://$PROJECT_DIR$/test-output/ScreenshotsverifyElementDisplay20190201043705.png" />
+    <entry file="file://$PROJECT_DIR$/test-output/ScreenshotsverifyElementDisplay20190201055001.png" />
+    <entry file="file://$PROJECT_DIR$/test-output/ScreenshotsverifyElementDisplay20190201055435.png" />
+    <entry file="file://$PROJECT_DIR$/test-output/ScreenshotsverifyElementDisplay20190201060005.png" />
+    <entry file="file://$PROJECT_DIR$/test-output/ScreenshotsverifyElementDisplay20190201060526.png" />
+    <entry file="file://$PROJECT_DIR$/test-output/ScreenshotsverifyElementDisplay20190201060557.png" />
+    <entry file="file://$PROJECT_DIR$/test-output/ScreenshotsverifyElementDisplay20190201060621.png" />
+    <entry file="file://$PROJECT_DIR$/test-output/ScreenshotsverifyElementDisplay20190201060753.png" />
+    <entry file="file://$PROJECT_DIR$/test-output/ScreenshotsverifyElementDisplay20190201041133.png" />
+    <entry file="file://$PROJECT_DIR$/test-output/ScreenshotsverifyElementDisplay20190201040242.png" />
+    <entry file="file://$PROJECT_DIR$/test-output/ScreenshotsverifyElementDisplay20190201040026.png" />
+    <entry file="file://$PROJECT_DIR$/test-output/ScreenshotsverifyElementDisplay20190201035729.png" />
+    <entry file="file://$PROJECT_DIR$/test-output/ScreenshotslogInTest20190201122945.png" />
+    <entry file="file://$PROJECT_DIR$/test-output/ScreenshotslogInTest20190201115440.png" />
+    <entry file="file://$PROJECT_DIR$/test-output/ScreenshotslogInTest20190201115318.png" />
+    <entry file="file://$PROJECT_DIR$/test-output/ScreenshotsverifyElementDisplay20190201062700.png" />
+    <entry file="file://$PROJECT_DIR$/test-output/ScreenshotsverifyElementDisplay20190201061809.png" />
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/Odoo_Expenses/utilities/ConfigurationReader.java">
+>>>>>>> 5c61dc764df5d7cb45d9b1a6b4f9ede5d601ef08
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Configuration.properties">
+      <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
         <state relative-caret-position="127">
           <caret line="65" lean-forward="true" selection-start-line="65" selection-end-line="65" />
         </state>
@@ -765,12 +1062,59 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="357">
           <caret line="27" column="10" selection-start-line="27" selection-start-column="10" selection-end-line="27" selection-end-column="10" />
+=======
+        <state relative-caret-position="60">
+          <caret line="4" selection-start-line="4" selection-end-line="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Odoo_Expenses.iml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" column="20" selection-start-line="1" selection-start-column="20" selection-end-line="1" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/Odoo_Expenses/utilities/Driver.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="24" column="48" selection-start-line="24" selection-start-column="48" selection-end-line="24" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test-output/ScreenshotsverifyElementDisplay20190201093117.png" />
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/Odoo_Expenses/pages/ExpensesPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="12" column="70" selection-start-line="12" selection-start-column="70" selection-end-line="12" selection-end-column="70" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/Odoo_Expenses/utilities/Pages.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="23" column="13" selection-start-line="23" selection-start-column="13" selection-end-line="23" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test-output/report.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test-output/ScreenshotsverifyCreateFunctionality20190202103700.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/Odoo_Expenses/utilities/BrowserUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1290">
+          <caret line="103" column="9" selection-start-line="103" selection-start-column="9" selection-end-line="103" selection-end-column="9" />
+>>>>>>> 5c61dc764df5d7cb45d9b1a6b4f9ede5d601ef08
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/Configuration.properties">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
@@ -796,12 +1140,36 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="306">
           <caret line="23" column="8" selection-start-line="23" selection-start-column="8" selection-end-line="25" />
+=======
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/Odoo_Expenses/pages/MainPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="22" selection-start-line="22" selection-end-line="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/Odoo_Expenses/pages/LoginPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="13" column="5" selection-start-line="11" selection-start-column="3" selection-end-line="13" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/Odoo_Expenses/pages/MExpensesToSummitPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="17" column="36" selection-start-line="17" selection-start-column="36" selection-end-line="17" selection-end-column="36" />
+>>>>>>> 5c61dc764df5d7cb45d9b1a6b4f9ede5d601ef08
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/src/test/java/com/Odoo_Expenses/pages/LoginPage.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="493">
@@ -837,12 +1205,33 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="340">
           <caret line="25" column="1" selection-start-line="25" selection-start-column="1" selection-end-line="25" selection-end-column="1" />
+=======
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/Odoo_Expenses/pages/ExpensesAnalysisPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="29" selection-start-line="2" selection-start-column="29" selection-end-line="2" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" selection-start-line="3" selection-end-line="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/Odoo_Expenses/tests/smoke_tests/loginTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="19" column="59" selection-start-line="19" selection-start-column="8" selection-end-line="19" selection-end-column="59" />
+>>>>>>> 5c61dc764df5d7cb45d9b1a6b4f9ede5d601ef08
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/src/test/java/com/Odoo_Expenses/pages/ExpensesPage.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="391">
@@ -854,6 +1243,12 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="286">
           <caret line="50" column="87" lean-forward="true" selection-start-line="47" selection-start-column="6" selection-end-line="50" selection-end-column="87" />
+=======
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/Odoo_Expenses/tests/smoke_tests/ExpensesToSummitTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="446">
+          <caret line="95" selection-start-line="95" selection-end-line="95" />
+>>>>>>> 5c61dc764df5d7cb45d9b1a6b4f9ede5d601ef08
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -862,13 +1257,94 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/Odoo_Expenses/utilities/TestBase.java">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
         <state relative-caret-position="102">
           <caret line="60" column="56" lean-forward="true" selection-start-line="60" selection-start-column="56" selection-end-line="60" selection-end-column="56" />
+=======
+        <state relative-caret-position="-600">
+          <caret line="15" column="22" selection-start-line="15" selection-start-column="22" selection-end-line="15" selection-end-column="22" />
+>>>>>>> 5c61dc764df5d7cb45d9b1a6b4f9ede5d601ef08
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>No facets are configured</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>Odoo_Expenses</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.6" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>Maven: com.aventstack:extentreports:4.0.6</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
   </component>
 </project>
