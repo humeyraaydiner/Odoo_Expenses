@@ -13,7 +13,7 @@ import org.testng.annotations.BeforeTest;
 import java.io.IOException;
 import java.util.concurrent.TimeUnit;
 
-public abstract class TestBase {
+public  class TestBase {
     protected WebDriver driver;
     protected Pages pages;
 

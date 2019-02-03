@@ -23,6 +23,7 @@ public class loginTest extends TestBase {
         // Thread.sleep(5000);
         BrowserUtils.waitForPageToLoad(5000);
         wait.until(ExpectedConditions.invisibilityOfElementLocated(By.className("o_loading")));
+
         wait.until(ExpectedConditions.visibilityOf(pages.main().ExpensesButton)).click();
         //fail();
         extentLogger.pass("Login Test Passed...");

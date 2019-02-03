@@ -7,11 +7,16 @@ import org.openqa.selenium.support.FindBy;
 public class MExpensesToSummitPage {
 
 
-    @FindBy(css = "\".btn.btn-primary.btn-sm.o_list_button_add\"")
+//    @FindBy(css = "\".btn.btn-primary.btn-sm.o_list_button_add\"")
+//
+//    public  WebElement createButton;
+//
+//   // @FindBy(css=".btn.btn-sm.btn-default.o_button_import");
+//
+//    public WebElement importButton;
+@FindBy(xpath = "(//div[@class='oe_secondary_menu_section']/div/div[8]")
 
-    public  WebElement createButton;
+public WebElement MyExpensesTitle;
 
-   // @FindBy(css=".btn.btn-sm.btn-default.o_button_import");
 
-    public WebElement importButton;
 }

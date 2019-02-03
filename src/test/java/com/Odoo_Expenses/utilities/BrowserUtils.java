@@ -260,6 +260,7 @@ public class BrowserUtils {
 
     /**
      *
+     *
      * @param element
      * @param check
      */

@@ -10,33 +10,26 @@ public class ExpensesPage {
         PageFactory.initElements(Driver.getDriver(), this);
     }
 
-    @FindBy(xpath = "(//a[@class='oe_menu_leaf'])[13]")
 
+    @FindBy(xpath = "(//a[@class='oe_menu_leaf'])[13]")
     public WebElement ExpensesToSubmit;
 
-
-
     @FindBy(xpath = "(//a[@class='oe_menu_leaf'])[14]")
-
     public WebElement RefusedReport;
 
-
     @FindBy(xpath = "(//a[@class='oe_menu_leaf'])[15]")
-
     public WebElement ExpenseReports;
 
     @FindBy(xpath = "(//a[@class='oe_menu_leaf'])[16]")
-
     public WebElement ExpenseReportsToApprove;
 
-
-    @FindBy(xpath = "(//a[@class='oe_menu_leaf'])[17]")
-
+    @FindBy(xpath = "((//div[@class='o_sub_menu_content']/div/ul/li)[10]")
     public WebElement ExpensesAnalysis;
 
     @FindBy(xpath = "//input[@class='o_searchview_input']")
-
     public WebElement Search;
+
+
 
 
 }

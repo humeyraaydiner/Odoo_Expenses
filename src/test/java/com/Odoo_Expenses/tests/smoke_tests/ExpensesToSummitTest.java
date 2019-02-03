@@ -13,16 +13,41 @@ public class ExpensesToSummitTest extends TestBase {
     @Test
 
     public void ExpensesToSummit()  {
+        pages.login().signIn();
 
+        //BrowserUtils.waitForPageToLoad(5000);
 
+        WebDriverWait wait = new WebDriverWait(driver, 10);
 
+        wait.until(ExpectedConditions.invisibilityOfElementLocated(By.className("o_loading")));
 
+        // wait.until(ExpectedConditions.visibilityOf(pages.main().ExpensesButton)).click();
 
+        pages.main().ExpensesButton.click();
 
+        //BrowserUtils.wait(0);
 
+//        extentLogger = report.createTest("ExpensesToSummitTest");
+//
+//        extentLogger.info("verifyElementDisplay()");
 
-
-
+        BrowserUtils.verifyElementDisplayed(pages.mExpensesToSummitPage().MyExpensesTitle);
 
     }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 }
+
