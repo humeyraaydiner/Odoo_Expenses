@@ -11,21 +11,24 @@ public class MExpensesToSummitPage {
         PageFactory.initElements(Driver.getDriver(), this);
     }
 
-    @FindBy(css = ".btn.btn-primary.btn-sm.o_list_button_add")
+   //@FindBy(xpath = "(//div[@class='o_cp_left']/div/div/button)[1]//button[contains(text(),'Create']")
+    //@FindBy(xpath = "//button[contains(text(),'Create']")
+
+    @FindBy(xpath ="//*[@accesskey='c']" )
     public  WebElement createButton;
 
-    @FindBy(xpath = "//button[@class='btn btn-sm btn-default o_button_import']")
+    @FindBy(xpath = "(//div[@class='o_list_buttons']/button)[2]")
     public WebElement importButton;
 
     @FindBy(xpath = "(//div[@class='o_sub_menu_content']/div/div)[8]")
     public WebElement MyExpensesTitle;
 
-    @FindBy(xpath ="(//li[@class='active'])[3]" )
-    public WebElement MyExpensesToSummitTitle;
-
-
-    @FindBy(xpath ="(//li[@class='active'])[2]" )
+    @FindBy(xpath ="(//div[@class='o_sub_menu_content']/div/ul/li)[6]" )
     public WebElement ExpensesToSummitTitle;
+
+
+   // @FindBy(xpath ="(//li[@class='active'])[2]" )
+    //public WebElement ExpensesToSummitTitle;
 
 
 
