@@ -6,15 +6,15 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 
-public class MExpensesToSummitPage {
-    public MExpensesToSummitPage() {
+public class mExpensesToSummitPage {
+    public mExpensesToSummitPage() {
         PageFactory.initElements(Driver.getDriver(), this);
     }
 
    //@FindBy(xpath = "(//div[@class='o_cp_left']/div/div/button)[1]//button[contains(text(),'Create']")
     //@FindBy(xpath = "//button[contains(text(),'Create']")
 
-<<<<<<< HEAD
+
 //    @FindBy(css = "\".btn.btn-primary.btn-sm.o_list_button_add\"")
 //
 //    public  WebElement createButton;
@@ -23,18 +23,17 @@ public class MExpensesToSummitPage {
 //
 //    public WebElement importButton;
 @FindBy(xpath = "(//div[@class='oe_secondary_menu_section']/div/div[8]")
-
 public WebElement MyExpensesTitle;
 
-=======
+
     @FindBy(xpath ="//*[@accesskey='c']" )
     public  WebElement createButton;
 
     @FindBy(xpath = "(//div[@class='o_list_buttons']/button)[2]")
     public WebElement importButton;
 
-    @FindBy(xpath = "(//div[@class='o_sub_menu_content']/div/div)[8]")
-    public WebElement MyExpensesTitle;
+//    @FindBy(xpath = "(//div[@class='o_sub_menu_content']/div/div)[8]")
+//    public WebElement MyExpensesTitle;
 
     @FindBy(xpath ="(//div[@class='o_sub_menu_content']/div/ul/li)[6]" )
     public WebElement ExpensesToSummitTitle;
@@ -45,6 +44,6 @@ public WebElement MyExpensesTitle;
 
 
 
->>>>>>> 5c61dc764df5d7cb45d9b1a6b4f9ede5d601ef08
+
 
 }

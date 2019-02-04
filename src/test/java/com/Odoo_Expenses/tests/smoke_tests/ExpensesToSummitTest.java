@@ -30,9 +30,30 @@ public class ExpensesToSummitTest extends TestBase {
         extentLogger.info(" Click on Expenses button");
         pages.main().ExpensesButton.click();
 
+        BrowserUtils.wait(5);
 
-<<<<<<< HEAD
-    public void ExpensesToSummit()  {
+
+
+        //BrowserUtils.wait(5);
+
+       // System.out.println(pages.mExpensesToSummitPage().MyExpensesTitle.getText());
+      // Assert.assertEquals(pages.mExpensesToSummitPage().MyExpensesTitle.getText(),MyExpensesText);
+
+
+        extentLogger.info("verify 'MY Expenses' functionality is visible ");
+        BrowserUtils.verifyElementDisplayed(pages.mExpensesToSummitPage().MyExpensesTitle);
+
+
+        extentLogger.info("verify 'Expenses to Summit' functionality is visible ");
+        BrowserUtils.verifyElementDisplayed(pages.mExpensesToSummitPage().ExpensesToSummitTitle);
+
+        extentLogger.info("Verify that import functinalty is visisable");
+        BrowserUtils.verifyElementDisplayed(pages.mExpensesToSummitPage().importButton);
+
+    }
+
+    @Test
+    public void ExpensesToSummit() {
         pages.login().signIn();
 
         //BrowserUtils.waitForPageToLoad(5000);
@@ -53,36 +74,6 @@ public class ExpensesToSummitTest extends TestBase {
 
         BrowserUtils.verifyElementDisplayed(pages.mExpensesToSummitPage().MyExpensesTitle);
 
-    }
-
-
-
-
-=======
-        BrowserUtils.wait(5);
->>>>>>> 5c61dc764df5d7cb45d9b1a6b4f9ede5d601ef08
-
-
-        //BrowserUtils.wait(5);
-
-       // System.out.println(pages.mExpensesToSummitPage().MyExpensesTitle.getText());
-      // Assert.assertEquals(pages.mExpensesToSummitPage().MyExpensesTitle.getText(),MyExpensesText);
-
-
-        extentLogger.info("verify 'MY Expenses' functionality is visible ");
-        BrowserUtils.verifyElementDisplayed(pages.mExpensesToSummitPage().MyExpensesTitle);
-
-
-        extentLogger.info("verify 'Expenses to Summit' functionality is visible ");
-        BrowserUtils.verifyElementDisplayed(pages.mExpensesToSummitPage().ExpensesToSummitTitle);
-
-        extentLogger.info("Verify that import functinalty is visisable");
-        BrowserUtils.verifyElementDisplayed(pages.mExpensesToSummitPage().importButton);
-
-
-
-<<<<<<< HEAD
-=======
     }
     @Test
     public void verifyCreateFunctionality(){
@@ -128,6 +119,6 @@ public class ExpensesToSummitTest extends TestBase {
 
 
 }
->>>>>>> 5c61dc764df5d7cb45d9b1a6b4f9ede5d601ef08
+
 }
 

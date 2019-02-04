@@ -8,8 +8,9 @@ public class Pages {
         private LoginPage loginPage;
         private MainPage mainPage;
         private ExpensesPage expensesPage;
-        private MExpensesToSummitPage  mExpensesToSummitPage;
+        private mExpensesToSummitPage mExpensesToSummitPage;
         private ExpensesAnalysisPage expensesAnalysisPage;
+        private SearchPage searchPage;
 
 
         public LoginPage login() {
@@ -34,32 +35,27 @@ public class Pages {
            return expensesPage;
     }
 
-<<<<<<< HEAD
     public ExpensesAnalysisPage  expensesAnalysisPage() {
-            if (expensesAnalysisPage==null) {
-=======
-         public ExpensesAnalysisPage  expensesAnalysisPage() {
-            if (expensesAnalysisPage== null) {
->>>>>>> 5c61dc764df5d7cb45d9b1a6b4f9ede5d601ef08
-            expensesAnalysisPage= new ExpensesAnalysisPage();
+        if (expensesAnalysisPage == null) {
+            expensesAnalysisPage = new ExpensesAnalysisPage();
         }
-           return expensesAnalysisPage;
+        return expensesAnalysisPage;
     }
 
+            public mExpensesToSummitPage mExpensesToSummitPage () {
+                if (mExpensesToSummitPage == null) {
+                    mExpensesToSummitPage = new mExpensesToSummitPage();
+                }
+                return mExpensesToSummitPage;
+            }
 
-<<<<<<< HEAD
-    public MExpensesToSummitPage  mExpensesToSummitPage() {
-           if (mExpensesToSummitPage==null) {
-=======
-          public MExpensesToSummitPage  mExpensesToSummitPage() {
-           if (mExpensesToSummitPage== null) {
->>>>>>> 5c61dc764df5d7cb45d9b1a6b4f9ede5d601ef08
-            mExpensesToSummitPage = new MExpensesToSummitPage();
+            public SearchPage searchPage(){
+                if (searchPage == null) {
+                    searchPage = new SearchPage();
+                }
+                return searchPage;
+
+            }
+
         }
-            return mExpensesToSummitPage;
-    }
 
-
-
-
-}

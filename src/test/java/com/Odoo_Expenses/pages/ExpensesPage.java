@@ -10,10 +10,7 @@ public class ExpensesPage {
         PageFactory.initElements(Driver.getDriver(), this);
     }
 
-<<<<<<< HEAD
-=======
-    @FindBy(xpath = "(//div[@class='o_sub_menu_content']/div/ul/li)[6]")
->>>>>>> 5c61dc764df5d7cb45d9b1a6b4f9ede5d601ef08
+
 
     @FindBy(xpath = "(//a[@class='oe_menu_leaf'])[13]")
     public WebElement ExpensesToSubmit;

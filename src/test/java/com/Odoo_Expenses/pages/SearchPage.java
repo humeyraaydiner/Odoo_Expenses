@@ -1,0 +1,64 @@
+package com.Odoo_Expenses.pages;
+
+import com.Odoo_Expenses.utilities.Driver;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.support.FindBy;
+import org.openqa.selenium.support.PageFactory;
+
+public class SearchPage {
+    public SearchPage(){
+        PageFactory.initElements(Driver.getDriver(),this);
+    }
+
+    @FindBy(xpath="//input[@class='o_searchview_input']")
+    public WebElement searchInput;
+
+    @FindBy(xpath = "//span[@title='Advanced Search...']")
+    public  WebElement advcancedSearch;
+
+    @FindBy(xpath = "//div[@class='o_facet_values']")
+    public WebElement defaultfilter;
+
+    @FindBy(xpath = "//div[@class='fa fa-sm fa-remove o_facet_remove']")
+    public WebElement getDefaultfilterremove;
+
+    @FindBy(xpath = "(//div[@class='o_sub_menu_content']/div/ul/li)[10]")
+    public WebElement ExpensesAnalysis;
+
+    @FindBy(xpath = "(//div[@class='oe_secondary_menu_section']/div/div[8]")
+    public WebElement MyExpensesTitle;
+
+    /*
+     extentLogger = report.createTest("Search fuctionlity testcase 1 executed");
+        page.login().loginAsManager();
+        extentLogger.pass("Clicked on Events lInk");
+
+        page.searchFunctionality().advanceSearch.click();
+        extentLogger.pass("clicked on advance search button");
+
+        WebDriverWait wait = new WebDriverWait(Driver.getDriver(),20);
+        wait.until(ExpectedConditions.visibilityOf(page.searchFunctionality().removeDefaultFilter));
+
+
+        page.searchFunctionality().removeDefaultFilter.click();
+        extentLogger.pass("Clicked on Default Filter button");
+        extentLogger.info("Verify that all Events are Displeyed ");
+
+        page.searchFunctionality().allUpcominEvents.getText();
+        extentLogger.pass("all Events ");
+
+        page.searchFunctionality().allUpcominEvents.isDisplayed();
+        extentLogger.pass("Events are Displyed True");
+
+        extentLogger.info("user shoul be able to search by events name");
+        page.searchFunctionality().searchBox.sendKeys("Event 1" + Keys.ENTER);
+        extentLogger.pass("User Entered Events name and clicked On keyboard Enter button");
+        extentLogger.info("Verify Expected Event is Displeyed");
+
+        page.searchFunctionality().Event_1.isDisplayed();
+        extentLogger.pass("Event is Displeyd as Expected");
+
+     */
+
+
+}
