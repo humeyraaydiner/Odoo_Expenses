@@ -20,29 +20,33 @@ public class SearchPage {
     public WebElement defaultfilter;
 
     @FindBy(xpath = "//div[@class='fa fa-sm fa-remove o_facet_remove']")
-    public WebElement getDefaultfilterremove;
+    public WebElement defaultfilterRemove;
+
+    @FindBy(xpath = "(//button[@class='o_dropdown_toggler_btn btn btn-sm dropdown-toggle'])[3]")
+    public WebElement clickFilter;
+
+    @FindBy(xpath = "(//a[@href='#'])[18]")
+    public WebElement myExpensesDrDw;
+
+    @FindBy(xpath = "(//a[@href='#'])[15]")
+    public WebElement refusedDrDw;
+
+
+    @FindBy(xpath = "(//span[@class='oe_menu_text'])[22]")
+    public WebElement clickRefusedReports;
 
     @FindBy(xpath = "(//div[@class='o_sub_menu_content']/div/ul/li)[10]")
     public WebElement ExpensesAnalysis;
 
-    @FindBy(xpath = "(//div[@class='oe_secondary_menu_section']/div/div[8]")
-    public WebElement MyExpensesTitle;
+
+
+
 
     /*
-     extentLogger = report.createTest("Search fuctionlity testcase 1 executed");
-        page.login().loginAsManager();
-        extentLogger.pass("Clicked on Events lInk");
-
-        page.searchFunctionality().advanceSearch.click();
-        extentLogger.pass("clicked on advance search button");
-
-        WebDriverWait wait = new WebDriverWait(Driver.getDriver(),20);
-        wait.until(ExpectedConditions.visibilityOf(page.searchFunctionality().removeDefaultFilter));
 
 
-        page.searchFunctionality().removeDefaultFilter.click();
-        extentLogger.pass("Clicked on Default Filter button");
-        extentLogger.info("Verify that all Events are Displeyed ");
+
+
 
         page.searchFunctionality().allUpcominEvents.getText();
         extentLogger.pass("all Events ");
