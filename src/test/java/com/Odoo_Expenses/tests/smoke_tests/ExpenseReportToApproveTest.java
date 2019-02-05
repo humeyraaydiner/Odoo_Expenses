@@ -38,7 +38,7 @@ public class ExpenseReportToApproveTest extends TestBase{
         pages.expenseReportsToApprovePage().Expense();
         assertEquals(driver.getTitle(),ApplicationConstants.APPLICATION_TITLE);
         extentLogger.info("Expenses  is displayed");
-        extentLogger.info(" test pass");
+        extentLogger.info(" test passed");
 
         extentLogger=  report.createTest
                 ("expenseReportsToApprovePage page Test");
@@ -47,7 +47,7 @@ public class ExpenseReportToApproveTest extends TestBase{
         assertEquals(driver.getTitle(),ApplicationConstants.EXPENSES_TO_REP);
 
         extentLogger.info(" expense Reports To ApprovePage is displayed");
-        extentLogger.info("pass");
+        extentLogger.info("passed");
 
     }
 }
