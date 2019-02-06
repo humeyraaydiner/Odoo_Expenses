@@ -11,7 +11,7 @@ public class Pages {
         private mExpensesToSummitPage mExpensesToSummitPage;
         private ExpensesAnalysisPage expensesAnalysisPage;
         private SearchPage searchPage;
-
+        private refusedReportsPage refusedReport;
 
         public LoginPage login() {
             if (loginPage == null) {
@@ -33,6 +33,13 @@ public class Pages {
         }
 
            return expensesPage;
+    }
+
+    public refusedReportsPage refusedReport(){
+        if(refusedReport==null){
+            refusedReport= new refusedReportsPage();
+        }
+        return refusedReport;
     }
 
     public ExpensesAnalysisPage  expensesAnalysisPage() {
