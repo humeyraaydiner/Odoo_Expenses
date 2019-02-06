@@ -18,7 +18,6 @@ public class refusedReportsTest extends TestBase {
         extentLogger=report.createTest("Refused Report tab test");
         extentLogger.info("Signing in...");
 
-        // pages.refusedReport().signIn();
 
         pages.login().signIn();
         BrowserUtils.wait(5);
@@ -53,11 +52,6 @@ public class refusedReportsTest extends TestBase {
         extentLogger.pass("Passed: Kanban functionality test");
 
 
-//        extentLogger.info("verify verify Kanban functionality is visible");
-//        BrowserUtils.wait(5);
-//        verifyElementDisplayed(pages.refusedReport().kanbanButton );
-//        extentLogger.info("verify kanban button is clickable");
-//        pages.refusedReport().kanbanButton.click();
     }
         @Test
          public void VerifyGraphFunctionalityTest(){
@@ -98,28 +92,6 @@ public class refusedReportsTest extends TestBase {
 
         }
 
-//            extentLogger.info("verify pivot button is visible");
-//            verifyElementDisplayed(pages.refusedReport().pivotButton );
-//            extentLogger.info("verify pivot button is clickable");
-//            pages.refusedReport().pivotButton.click();
-//
-//            @Test
-//            public void VerifyDataChart(){
-//               extentLogger = report.createTest("data functionality ");
-//
-//                pages.login().signIn();
-//                BrowserUtils.wait(5);
-//                BrowserUtils.waitForClickablility(pages.main().ExpensesButton,5);
-//                pages.main().ExpensesButton.click();
-//
-//                pages.refusedReport().clickRefusedReportTab();
-//                BrowserUtils.wait(5);
-//                pages.refusedReport().clickGraphButton();
-//
-//                String displayMsg=pages.refusedReport().getDisplayMsg();
-//                String actualMsg= "No data to display";
-//                Assert.assertEquals(displayMsg, actualMsg);
-//                extentLogger.pass("Passed: Graph Functionality Test");
 
 
     }
