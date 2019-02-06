@@ -11,14 +11,8 @@ public class Pages {
     private mExpensesToSummitPage mExpensesToSummitPage;
     private ExpensesAnalysisPage expensesAnalysisPage;
     private SearchPage searchPage;
-
     private ExpenseReportsToApprovePage expenseReportsToApprovePage;
-        private LoginPage loginPage;
-        private MainPage mainPage;
-        private ExpensesPage expensesPage;
-        private mExpensesToSummitPage mExpensesToSummitPage;
-        private ExpensesAnalysisPage expensesAnalysisPage;
-        private SearchPage searchPage;
+
         private refusedReportsPage refusedReport;
 
     public LoginPage login() {
@@ -64,6 +58,13 @@ public class Pages {
                 return searchPage;
 
             }
+   public ExpenseReportsToApprovePage expenseReportsToApprovePage(){
+        if(expenseReportsToApprovePage ==null)
+                expenseReportsToApprovePage= new ExpenseReportsToApprovePage();
+       return expenseReportsToApprovePage;
+   }
 
-        }
+
+
+}
 
