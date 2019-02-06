@@ -1,4 +1,5 @@
 package com.Odoo_Expenses.tests.smoke_tests;
+import com.Odoo_Expenses.pages.MainPage;
 import com.Odoo_Expenses.utilities.ApplicationConstants;
 import com.Odoo_Expenses.utilities.ConfigurationReader;
 import com.Odoo_Expenses.utilities.TestBase;
@@ -16,11 +17,16 @@ public class ExpenseReportToApproveTest extends TestBase{
         extentLogger.info("Sigin in logging page");
 
         pages.login().signIn();
-        assertEquals(driver.getTitle(),
-                ApplicationConstants.LOGIN_PAGE_TITLE);
-        extentLogger.info("the loging page is displayed");
+
+        //extentLogger.info("click on expenses button");
+        pages.main().ExpensesButton.click();
+
+assertEquals(pages.main().ExpensesButton.getText(),
+        ApplicationConstants.MAIN_PAGE);
+
+        extentLogger.info("main page is displayed");
         extentLogger.info(" test is passed");
-        // assertEquals(driver.getTitle(), ApplicationConstants.LOGIN_PAGE_TITLE);
+
         WebDriverWait wait = new WebDriverWait(driver,5);
 
 
@@ -31,25 +37,44 @@ public class ExpenseReportToApproveTest extends TestBase{
     @Test
     public void test2(){
 
+
         extentLogger=  report.createTest("expenses page Test");
+
         WebDriverWait wait = new WebDriverWait(driver,5);
+
         extentLogger.info("Click on 'Expenses'. ");
 
         pages.expenseReportsToApprovePage().Expense();
-        assertEquals(driver.getTitle(),ApplicationConstants.APPLICATION_TITLE);
+
+
+
+        assertEquals(pages.expenseReportsToApprovePage()
+
+        .expense.getText(),ApplicationConstants.LIST_OF_ALL_PRODUCTS);
+
+
         extentLogger.info("Expenses  is displayed");
+
         extentLogger.info(" Test passed");
 
         extentLogger=  report.createTest
+
                 ("expenseReportsToApprovePage page Test");
+
         extentLogger.info("clicking on expenseReportsToApprovePage");
+
         pages.expenseReportsToApprovePage().ExpenseReportsToApp();
-        assertEquals(driver.getTitle(),ApplicationConstants.EXPENSES_TO_REP);
+
+        assertEquals(pages.expenseReportsToApprovePage()
+
+                .ExpenseReportsToApp.getText(),ApplicationConstants.EXPENSES_TO_REP);
 
         extentLogger.info(" expense Reports To ApprovePage is displayed");
+
         extentLogger.info("passed");
 
     }
+
 }
 
 

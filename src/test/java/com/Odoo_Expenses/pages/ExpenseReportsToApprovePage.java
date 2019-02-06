@@ -30,10 +30,10 @@ public class ExpenseReportsToApprovePage {
     public void Expense(){
         expense.click();
 
-    }
+   }
     public void ExpenseReportsToApp(){
         ExpenseReportsToApp.click();
-    }
+   }
 
 }
 
