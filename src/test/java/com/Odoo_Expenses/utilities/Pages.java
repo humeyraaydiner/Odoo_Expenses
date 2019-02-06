@@ -13,6 +13,13 @@ public class Pages {
     private SearchPage searchPage;
 
     private ExpenseReportsToApprovePage expenseReportsToApprovePage;
+        private LoginPage loginPage;
+        private MainPage mainPage;
+        private ExpensesPage expensesPage;
+        private mExpensesToSummitPage mExpensesToSummitPage;
+        private ExpensesAnalysisPage expensesAnalysisPage;
+        private SearchPage searchPage;
+        private refusedReportsPage refusedReport;
 
     public LoginPage login() {
         if (loginPage == null) {
@@ -33,38 +40,30 @@ public class Pages {
             expensesPage = new ExpensesPage();
         }
 
-        return expensesPage;
+           return expensesPage;
     }
 
-    public ExpensesAnalysisPage expensesAnalysisPage() {
+    public ExpensesAnalysisPage  expensesAnalysisPage() {
         if (expensesAnalysisPage == null) {
             expensesAnalysisPage = new ExpensesAnalysisPage();
         }
         return expensesAnalysisPage;
     }
 
-    public mExpensesToSummitPage mExpensesToSummitPage() {
-        if (mExpensesToSummitPage == null) {
-            mExpensesToSummitPage = new mExpensesToSummitPage();
-        }
-        return mExpensesToSummitPage;
-    }
+            public mExpensesToSummitPage mExpensesToSummitPage () {
+                if (mExpensesToSummitPage == null) {
+                    mExpensesToSummitPage = new mExpensesToSummitPage();
+                }
+                return mExpensesToSummitPage;
+            }
 
-    public SearchPage searchPage() {
-        if (searchPage == null) {
-            searchPage = new SearchPage();
-        }
-        return searchPage;
+            public SearchPage searchPage(){
+                if (searchPage == null) {
+                    searchPage = new SearchPage();
+                }
+                return searchPage;
 
-    }
-
-    public ExpenseReportsToApprovePage expenseReportsToApprovePage() {
-        if (expenseReportsToApprovePage == null) {
-            expenseReportsToApprovePage = new ExpenseReportsToApprovePage();
+            }
 
         }
-        return expenseReportsToApprovePage;
-    }
 
-
-}
