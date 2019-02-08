@@ -8,6 +8,7 @@ import com.Odoo_Expenses.pages.Humeyra.ExpenseReportSummaryPage;
 
 public class Pages {
 
+<<<<<<< HEAD
         private LoginPage loginPage;
         private MainPage mainPage;
         private ExpensesPage expensesPage;
@@ -17,24 +18,34 @@ public class Pages {
         private ExpenseReportPage expenseReportPage;
         private EmployeeInfoPage employeeInfoPage;
         private ExpenseReportSummaryPage expenseReportSummaryPage;
+=======
+    private LoginPage loginPage;
+    private MainPage mainPage;
+    private ExpensesPage expensesPage;
+    private mExpensesToSummitPage mExpensesToSummitPage;
+    private ExpensesAnalysisPage expensesAnalysisPage;
+    private SearchPage searchPage;
+    private ExpenseReportsToApprovePage expenseReportsToApprovePage;
+>>>>>>> 127addaab93c056a8b07d71a395c063066b9bbb6
 
+        private refusedReportsPage refusedReport;
 
-        public LoginPage login() {
-            if (loginPage == null) {
-                loginPage = new LoginPage();
-            }
-            return loginPage;
+    public LoginPage login() {
+        if (loginPage == null) {
+            loginPage = new LoginPage();
         }
+        return loginPage;
+    }
 
-        public MainPage main() {
-            if (mainPage == null) {
-                mainPage = new MainPage();
-            }
-            return mainPage;
+    public MainPage main() {
+        if (mainPage == null) {
+            mainPage = new MainPage();
         }
+        return mainPage;
+    }
 
-        public ExpensesPage expensesPage() {
-             if (expensesPage== null) {
+    public ExpensesPage expensesPage() {
+        if (expensesPage == null) {
             expensesPage = new ExpensesPage();
         }
 
@@ -62,7 +73,13 @@ public class Pages {
                 return searchPage;
 
             }
+   public ExpenseReportsToApprovePage expenseReportsToApprovePage(){
+        if(expenseReportsToApprovePage ==null)
+                expenseReportsToApprovePage= new ExpenseReportsToApprovePage();
+       return expenseReportsToApprovePage;
+   }
 
+<<<<<<< HEAD
     public ExpenseReportPage expenseReportPage ( ) {
             if(expenseReportPage ==null){
                 expenseReportPage = new ExpenseReportPage ();
@@ -81,6 +98,9 @@ public class Pages {
         }
         return expenseReportSummaryPage;
     }
+=======
+
+>>>>>>> 127addaab93c056a8b07d71a395c063066b9bbb6
 
 }
 
