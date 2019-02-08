@@ -1,6 +1,9 @@
 package com.Odoo_Expenses.utilities;
 
 import com.Odoo_Expenses.pages.*;
+import com.Odoo_Expenses.pages.Humeyra.EmployeeInfoPage;
+import com.Odoo_Expenses.pages.Humeyra.ExpenseReportPage;
+import com.Odoo_Expenses.pages.Humeyra.ExpenseReportSummaryPage;
 
 
 public class Pages {
@@ -11,6 +14,9 @@ public class Pages {
         private mExpensesToSummitPage mExpensesToSummitPage;
         private ExpensesAnalysisPage expensesAnalysisPage;
         private SearchPage searchPage;
+        private ExpenseReportPage expenseReportPage;
+        private EmployeeInfoPage employeeInfoPage;
+        private ExpenseReportSummaryPage expenseReportSummaryPage;
 
 
         public LoginPage login() {
@@ -57,5 +63,24 @@ public class Pages {
 
             }
 
+    public ExpenseReportPage expenseReportPage ( ) {
+            if(expenseReportPage ==null){
+                expenseReportPage = new ExpenseReportPage ();
+            }
+            return expenseReportPage;
+    }
+    public EmployeeInfoPage employeeInfoPage(){
+            if(employeeInfoPage ==null){
+                employeeInfoPage = new EmployeeInfoPage ();
+            }
+            return employeeInfoPage;
+    }
+    public ExpenseReportSummaryPage expenseReportSummaryPage(){
+        if(expenseReportSummaryPage ==null){
+            expenseReportSummaryPage = new ExpenseReportSummaryPage ();
         }
+        return expenseReportSummaryPage;
+    }
+
+}
 
