@@ -6,9 +6,10 @@ import com.Odoo_Expenses.pages.Humeyra.ExpenseReportPage;
 import com.Odoo_Expenses.pages.Humeyra.ExpenseReportSummaryPage;
 
 
-public class Pages {
+public class
+Pages {
 
-<<<<<<< HEAD
+
         private LoginPage loginPage;
         private MainPage mainPage;
         private ExpensesPage expensesPage;
@@ -18,15 +19,7 @@ public class Pages {
         private ExpenseReportPage expenseReportPage;
         private EmployeeInfoPage employeeInfoPage;
         private ExpenseReportSummaryPage expenseReportSummaryPage;
-=======
-    private LoginPage loginPage;
-    private MainPage mainPage;
-    private ExpensesPage expensesPage;
-    private mExpensesToSummitPage mExpensesToSummitPage;
-    private ExpensesAnalysisPage expensesAnalysisPage;
-    private SearchPage searchPage;
-    private ExpenseReportsToApprovePage expenseReportsToApprovePage;
->>>>>>> 127addaab93c056a8b07d71a395c063066b9bbb6
+private ExpenseReportsToApprovePage expenseReportsToApprovePage;
 
         private refusedReportsPage refusedReport;
 
@@ -73,13 +66,9 @@ public class Pages {
                 return searchPage;
 
             }
-   public ExpenseReportsToApprovePage expenseReportsToApprovePage(){
-        if(expenseReportsToApprovePage ==null)
-                expenseReportsToApprovePage= new ExpenseReportsToApprovePage();
-       return expenseReportsToApprovePage;
-   }
 
-<<<<<<< HEAD
+
+
     public ExpenseReportPage expenseReportPage ( ) {
             if(expenseReportPage ==null){
                 expenseReportPage = new ExpenseReportPage ();
@@ -98,9 +87,16 @@ public class Pages {
         }
         return expenseReportSummaryPage;
     }
-=======
 
->>>>>>> 127addaab93c056a8b07d71a395c063066b9bbb6
 
+   public ExpenseReportsToApprovePage expenseReportsToApprovePage(){
+        if (expenseReportsToApprovePage ==null){
+            expenseReportsToApprovePage =new ExpenseReportsToApprovePage();
+
+
+        }
+        return expenseReportsToApprovePage;
+
+   }
 }
 

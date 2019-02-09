@@ -20,6 +20,7 @@ public class ExpenseReportsToApprovePage {
 
     @FindBy(xpath = "//button[@accesskey='c']")
     //@FindBy(linkText = "Create")
+    //@FindBy(xpath = "//div[@class='o_list_buttons']/button[@accesskey='c']")
     public WebElement create;
 
     //@FindBy(xpath = "(//button[contains(text(),'Import']")
@@ -46,11 +47,11 @@ public class ExpenseReportsToApprovePage {
     public WebElement refused;
 
 
-    public void Expense(){
+    public void Expense() {
         expense.click();
 
-   }
-    public void ExpenseReportsToApp(){
+    }
+   public void ExpenseReportsToApp(){
         ExpenseReportsToApp.click();
    }
 

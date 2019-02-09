@@ -12,7 +12,7 @@ import org.testng.annotations.Test;
 import static org.testng.Assert.assertEquals;
 
 public class ExpenseReportToApproveTest extends TestBase {
-    @BeforeMethod
+   @Test
     public void test1() {
         extentLogger = report.createTest("Login Test");
         extentLogger.info("Sigin in logging page");
@@ -36,22 +36,22 @@ public class ExpenseReportToApproveTest extends TestBase {
 
     @Test
     public void test2() {
+        pages.login().signIn();
 
 
         extentLogger = report.createTest("expenses page Test");
 
-        WebDriverWait wait = new WebDriverWait(driver, 5);
+        WebDriverWait wait = new WebDriverWait(driver, 10);
+
+
+       pages.expensesPage().ExpenseReportsToApprove.click();
+
+
+        assertEquals(pages.expensesPage().ExpenseReportsToApprove
+
+                .getText(), ApplicationConstants.LIST_OF_ALL_PRODUCTS);
 
         extentLogger.info("Click on 'Expenses'. ");
-
-        pages.expenseReportsToApprovePage().Expense();
-
-
-        assertEquals(pages.expenseReportsToApprovePage()
-
-                .expense.getText(), ApplicationConstants.LIST_OF_ALL_PRODUCTS);
-
-
         extentLogger.info("Expenses  is displayed");
 
         extentLogger.info(" Test passed");
@@ -61,6 +61,8 @@ public class ExpenseReportToApproveTest extends TestBase {
                 ("expenseReportsToApprovePage page Test");
 
         extentLogger.info("clicking on expenseReportsToApprovePage");
+
+        WebDriverWait wait1 = new WebDriverWait(driver, 10);
 
         pages.expenseReportsToApprovePage().ExpenseReportsToApp();
 
@@ -74,39 +76,63 @@ public class ExpenseReportToApproveTest extends TestBase {
 
     }
 
+
     @Test
     public void test3() {
-        //pages.login().signIn();
-        // pages.main().ExpensesButton.click();
+        pages.login().signIn();
+         pages.main().ExpensesButton.click();
+        extentLogger = report.createTest
+
+                ("expenseReportsToApprovePage page Test");
+
+        WebDriverWait wait = new WebDriverWait(driver, 15);
+        extentLogger.info("clicking on expenseReportsToApprovePage");
 
         pages.expensesPage().ExpenseReportsToApprove.click();
 
-        WebDriverWait wait = new WebDriverWait(driver, 15);
-
+        WebDriverWait wait1 = new WebDriverWait(driver, 15);
+        extentLogger.info(" expenseReportsToApprovePage is displayed");
         pages.expenseReportsToApprovePage().create.click();
+        extentLogger.info("passed");
 
 
     }
 
     @Test
     public void test4() {
+        pages.login().signIn();
+        WebDriverWait wait = new WebDriverWait(driver, 15);
+        pages.main().ExpensesButton.click();
+        extentLogger = report.createTest
+
+                ("search page test");
 
 
         pages.expensesPage().ExpenseReportsToApprove.click();
 
-        WebDriverWait wait = new WebDriverWait(driver, 15);
+        WebDriverWait wait3 = new WebDriverWait(driver, 15);
 
         pages.expenseReportsToApprovePage().create.click();
 
         WebDriverWait wait1 = new WebDriverWait(driver, 15);
 
 pages.expenseReportsToApprovePage().Search.click();
+        extentLogger.info("passed");
+
     }
     @Test
     public void test5(){
+        pages.login().signIn();
+        WebDriverWait wait = new WebDriverWait(driver, 15);
+        pages.main().ExpensesButton.click();
+        extentLogger = report.createTest
+
+                ("search page test");
+
+
         pages.expensesPage().ExpenseReportsToApprove.click();
 
-        WebDriverWait wait = new WebDriverWait(driver, 20);
+        WebDriverWait wait4 = new WebDriverWait(driver, 20);
 
         pages.expenseReportsToApprovePage().create.click();
 
@@ -128,14 +154,22 @@ pages.expenseReportsToApprovePage().Search.click();
 
         pages.expenseReportsToApprovePage().approve.click();
 
-
+        extentLogger.info("passed");
 
     }
     @Test
     public void test6(){
+        pages.login().signIn();
+        WebDriverWait wait = new WebDriverWait(driver, 15);
+        pages.main().ExpensesButton.click();
+        extentLogger = report.createTest
+
+                ("refuse page test");
+
+
         pages.expensesPage().ExpenseReportsToApprove.click();
 
-        WebDriverWait wait = new WebDriverWait(driver, 20);
+        WebDriverWait wait5 = new WebDriverWait(driver, 20);
 
         pages.expenseReportsToApprovePage().create.click();
 
@@ -156,20 +190,28 @@ pages.expenseReportsToApprovePage().Search.click();
 
 
         pages.expenseReportsToApprovePage().refused.click();
-
+        extentLogger.info("passed");
 
     }
     @Test
     public void test7(){
+        pages.login().signIn();
+        WebDriverWait wait = new WebDriverWait(driver, 15);
+        pages.main().ExpensesButton.click();
+        extentLogger = report.createTest
+
+                ("refuse page test");
+        WebDriverWait wait65 = new WebDriverWait(driver, 15);
         pages.expensesPage().ExpenseReportsToApprove.click();
 
-        WebDriverWait wait = new WebDriverWait(driver, 20);
+
+        WebDriverWait wait6 = new WebDriverWait(driver, 15);
 
 
-
-        //pages.expenseReportsToApprovePage().create.click();
+       // pages.expenseReportsToApprovePage().create.click();
 
         pages.expenseReportsToApprovePage().Impo.click();
+        extentLogger.info("pass");
     }
 
 
