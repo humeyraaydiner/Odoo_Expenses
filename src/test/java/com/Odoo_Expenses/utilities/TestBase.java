@@ -17,7 +17,7 @@ import java.util.concurrent.TimeUnit;
     public class TestBase {
 
         protected WebDriver driver;
-        protected Pages pages;
+        protected com.Odoo_Expenses.utilities.Pages pages;
 
         protected static ExtentReports report;
         private static ExtentHtmlReporter htmlReporter;
@@ -26,7 +26,7 @@ import java.util.concurrent.TimeUnit;
 
         @BeforeMethod
         public void setupMethod() {
-            driver = Driver.getDriver();
+            driver = com.Odoo_Expenses.utilities.Driver.getDriver();
             pages = new Pages();
             driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
             driver.get(ConfigurationReader.getProperty("url"));
