@@ -1,6 +1,6 @@
 package com.Odoo_Expenses.tests.smoke_tests;
 
-import com.Odoo_Expenses.pages.MExpensesToSummitPage;
+import com.Odoo_Expenses.pages.mExpensesToSummitPage;
 import com.Odoo_Expenses.utilities.BrowserUtils;
 import com.Odoo_Expenses.utilities.Driver;
 import com.Odoo_Expenses.utilities.TestBase;
@@ -145,6 +145,20 @@ public class ExpensesToSummitTest extends TestBase {
 
 
 }
+//@Test
+//    public void Click(){
+//       // pages.mExpensesToSummitPage().ExpensesClick();
+//}
+@Test
+public void clicKTEST(){
+//    pages.login().signIn();
+//     BrowserUtils.wait(5);
+//   pages.login().expensesClick();
+pages.mExpensesToSummitPage().ExpensesClick();
+BrowserUtils.wait(5);
+pages.mExpensesToSummitPage().createButton.click();
+}
+
 
 }
 
