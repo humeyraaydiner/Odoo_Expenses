@@ -22,5 +22,4 @@ public class ExpensesAnalysisPage {
     public WebElement MeasureButton;
 
 
-
 }

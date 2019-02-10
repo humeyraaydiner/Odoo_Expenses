@@ -22,8 +22,9 @@ public class mExpensesToSummitPage {
 //   // @FindBy(css=".btn.btn-sm.btn-default.o_button_import");
 //
 //    public WebElement importButton;
-@FindBy(xpath = "(//div[@class='oe_secondary_menu_section']/div/div[8]")
-public WebElement MyExpensesTitle;
+
+    @FindBy(xpath = "(//div[@class='oe_secondary_menu_section']/div/div[8]")
+    public WebElement MyExpensesTitle;
 
 
     @FindBy(xpath ="//*[@accesskey='c']" )
@@ -32,14 +33,14 @@ public WebElement MyExpensesTitle;
     @FindBy(xpath = "(//div[@class='o_list_buttons']/button)[2]")
     public WebElement importButton;
 
-//    @FindBy(xpath = "(//div[@class='o_sub_menu_content']/div/div)[8]")
-//    public WebElement MyExpensesTitle;
+    //    @FindBy(xpath = "(//div[@class='o_sub_menu_content']/div/div)[8]")
+    //    public WebElement MyExpensesTitle;
 
     @FindBy(xpath ="(//div[@class='o_sub_menu_content']/div/ul/li)[6]" )
     public WebElement ExpensesToSummitTitle;
 
 
-   // @FindBy(xpath ="(//li[@class='active'])[2]" )
+   //@FindBy(xpath ="(//li[@class='active'])[2]" )
     //public WebElement ExpensesToSummitTitle;
 
 

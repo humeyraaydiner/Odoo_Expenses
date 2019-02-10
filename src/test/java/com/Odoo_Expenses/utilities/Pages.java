@@ -98,5 +98,11 @@ private ExpenseReportsToApprovePage expenseReportsToApprovePage;
         return expenseReportsToApprovePage;
 
    }
+    public refusedReportsPage refusedReport(){
+        if(refusedReport==null){
+            refusedReport= new refusedReportsPage();
+        }
+        return refusedReport;
+    }
 }
 

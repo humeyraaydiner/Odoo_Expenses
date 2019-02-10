@@ -34,6 +34,7 @@ public class ExpensesAnalysis extends TestBase {
         pages.expensesAnalysisPage().ExpensesAnalysis.click();
 
     }
+
      @Test
     public void verifyMeasureDropDownButton(){
          //   Verify after clicking "Expenses Analysis"
@@ -45,10 +46,12 @@ public class ExpensesAnalysis extends TestBase {
          pages.main().ExpensesButton.click();
          BrowserUtils.wait(5);
          pages.expensesAnalysisPage().ExpensesAnalysis.click();
+
         // BrowserUtils.wait(5);
-         //BrowserUtils.waitForPageToLoad(10);
-//        extentLogger.info("Verify 'Measure dropdown button' is displayed");
-//       BrowserUtils.waitForVisibility(pages.expensesAnalysisPage().MeasureButton,10);
+        // BrowserUtils.waitForPageToLoad(10);
+         //extentLogger.info("Verify 'Measure dropdown button' is displayed");
+        //       BrowserUtils.waitForVisibility(pages.expensesAnalysisPage().MeasureButton,10);
+
          extentLogger.info("verify 'Measure' dropdown button is visible");
          verifyElementDisplayed(pages.expensesAnalysisPage().MeasureButton);
 
@@ -56,10 +59,5 @@ public class ExpensesAnalysis extends TestBase {
          pages.expensesAnalysisPage().MeasureButton.click();
 
 
-
      }
-
-
-
-
 }
