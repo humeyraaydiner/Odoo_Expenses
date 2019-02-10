@@ -3,14 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="46c98a74-b2fc-42c6-b674-8f892aebcced" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/Odoo_Expenses/pages/Humeyra/ExpenseReportSummaryPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/Odoo_Expenses/pages/Humeyra/ExpenseReportSummaryPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/Odoo_Expenses/pages/LoginPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/Odoo_Expenses/pages/LoginPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/Odoo_Expenses/pages/mExpensesToSummitPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/Odoo_Expenses/pages/mExpensesToSummitPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/Odoo_Expenses/tests/smoke_tests/ExpensesToSummitTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/Odoo_Expenses/tests/smoke_tests/ExpensesToSummitTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/Odoo_Expenses/pages/LoginPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/Odoo_Expenses/pages/LoginPage.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/Odoo_Expenses/pages/MExpensesToSummitPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/Odoo_Expenses/pages/MExpensesToSummitPage.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/Odoo_Expenses/tests/smoke_tests/ExpensesToSummitTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/Odoo_Expenses/tests/smoke_tests/ExpensesToSummitTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test-output/report.html" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/report.html" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -65,14 +57,14 @@
     <session id="457428895">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="28" />
-          <entry key="project.open.time.0" value="16" />
+          <entry key="project.closed" value="29" />
+          <entry key="project.open.time.0" value="18" />
           <entry key="project.open.time.1" value="4" />
           <entry key="project.open.time.3" value="2" />
           <entry key="project.open.time.4" value="4" />
           <entry key="project.open.time.5" value="1" />
           <entry key="project.open.time.8" value="1" />
-          <entry key="project.opened" value="28" />
+          <entry key="project.opened" value="30" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
@@ -81,7 +73,7 @@
           <entry key="HTML" value="2" />
           <entry key="IDEA_MODULE" value="1" />
           <entry key="Image" value="22" />
-          <entry key="JAVA" value="79" />
+          <entry key="JAVA" value="81" />
           <entry key="PLAIN_TEXT" value="1" />
           <entry key="Properties" value="2" />
         </counts>
@@ -111,7 +103,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/com/Odoo_Expenses/tests/smoke_tests/ExpensesToSummitTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2265">
+            <state relative-caret-position="241">
               <caret line="151" column="5" selection-start-line="151" selection-start-column="5" selection-end-line="151" selection-end-column="5" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -121,9 +113,18 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/Odoo_Expenses/pages/MainPage.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="120">
+              <caret line="19" column="37" selection-start-line="19" selection-start-column="23" selection-end-line="19" selection-end-column="37" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/com/Odoo_Expenses/utilities/TestBase.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
+            <state relative-caret-position="435">
               <caret line="29" column="12" selection-start-line="29" selection-start-column="12" selection-end-line="29" selection-end-column="18" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -135,8 +136,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/com/Odoo_Expenses/pages/LoginPage.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="75">
-              <caret line="11" column="39" selection-start-line="11" selection-start-column="39" selection-end-line="11" selection-end-column="39" />
+            <state relative-caret-position="600">
+              <caret line="42" selection-start-line="42" selection-end-line="42" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -145,20 +146,24 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/com/Odoo_Expenses/pages/mExpensesToSummitPage.java">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/Odoo_Expenses/pages/ExpensesPage.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="406">
-              <caret line="93" column="8" selection-start-line="93" selection-start-column="8" selection-end-line="93" selection-end-column="8" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="105">
+              <caret line="12" selection-start-line="12" selection-end-line="12" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/test-output/ScreenshotsClick20190209071913.png">
-          <provider selected="true" editor-type-id="images" />
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/Odoo_Expenses/pages/mExpensesToSummitPage.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="424">
+              <caret line="95" column="1" lean-forward="true" selection-start-line="57" selection-start-column="3" selection-end-line="95" selection-end-column="1" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
@@ -215,9 +220,9 @@
         <option value="$PROJECT_DIR$/src/test/java/com/Odoo_Expenses/pages/Humeyra/ExpenseReportSummaryPage.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/Odoo_Expenses/pages/MainPage.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/Odoo_Expenses/utilities/Pages.java" />
-        <option value="$PROJECT_DIR$/src/test/java/com/Odoo_Expenses/pages/LoginPage.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/Odoo_Expenses/tests/smoke_tests/ExpensesToSummitTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/Odoo_Expenses/pages/mExpensesToSummitPage.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/Odoo_Expenses/pages/LoginPage.java" />
       </list>
     </option>
   </component>
@@ -453,10 +458,10 @@
       <window_info id="Capture Tool" order="2" />
       <window_info id="Favorites" order="3" side_tool="true" />
       <window_info id="Image Layers" order="4" />
-      <window_info content_ui="combo" id="Project" order="5" weight="0.36832297" />
+      <window_info active="true" content_ui="combo" id="Project" order="5" visible="true" weight="0.3726708" />
       <window_info id="Structure" order="6" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="TODO" order="0" weight="0.32982457" />
-      <window_info anchor="bottom" id="Terminal" order="1" weight="0.3263158" />
+      <window_info anchor="bottom" id="Terminal" order="1" visible="true" weight="0.3263158" />
       <window_info anchor="bottom" id="Event Log" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="3" show_stripe_button="false" />
       <window_info anchor="bottom" id="Message" order="4" />
@@ -626,12 +631,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/Odoo_Expenses/pages/ExpensesPage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="12" selection-start-line="12" selection-end-line="12" />
-        </state>
-      </provider>
+    <entry file="file://$PROJECT_DIR$/test-output/ScreenshotsClick20190209064803.png" />
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/Odoo_Expenses/tests/finc/ExpensesToSummitPage_Functional.java" />
+    <entry file="file://$PROJECT_DIR$/test-output/ScreenshotsClick20190209071913.png">
+      <provider selected="true" editor-type-id="images" />
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/Odoo_Expenses/pages/MainPage.java">
       <provider selected="true" editor-type-id="text-editor">
@@ -640,20 +643,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test-output/ScreenshotsClick20190209064803.png" />
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/Odoo_Expenses/tests/smoke_tests/ExpensesToSummitTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2265">
-          <caret line="151" column="5" selection-start-line="151" selection-start-column="5" selection-end-line="151" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/Odoo_Expenses/utilities/TestBase.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
+        <state relative-caret-position="435">
           <caret line="29" column="12" selection-start-line="29" selection-start-column="12" selection-end-line="29" selection-end-column="18" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -663,11 +655,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/Odoo_Expenses/pages/LoginPage.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="11" column="39" selection-start-line="11" selection-start-column="39" selection-end-line="11" selection-end-column="39" />
+        <state relative-caret-position="600">
+          <caret line="42" selection-start-line="42" selection-end-line="42" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/Odoo_Expenses/pages/ExpensesPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="12" selection-start-line="12" selection-end-line="12" />
         </state>
       </provider>
     </entry>
@@ -699,25 +698,25 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/Odoo_Expenses/tests/finc/ExpensesToSummitPage_Functional.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/Odoo_Expenses/tests/smoke_tests/ExpensesToSummitTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="44" selection-start-line="2" selection-start-column="44" selection-end-line="2" selection-end-column="44" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/Odoo_Expenses/pages/mExpensesToSummitPage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="406">
-          <caret line="93" column="8" selection-start-line="93" selection-start-column="8" selection-end-line="93" selection-end-column="8" />
+        <state relative-caret-position="241">
+          <caret line="151" column="5" selection-start-line="151" selection-start-column="5" selection-end-line="151" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test-output/ScreenshotsClick20190209071913.png">
-      <provider selected="true" editor-type-id="images" />
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/Odoo_Expenses/pages/mExpensesToSummitPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="424">
+          <caret line="95" column="1" lean-forward="true" selection-start-line="57" selection-start-column="3" selection-end-line="95" selection-end-column="1" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
     </entry>
   </component>
 </project>
