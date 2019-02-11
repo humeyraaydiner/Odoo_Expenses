@@ -1,9 +1,9 @@
 package com.Odoo_Expenses.utilities;
 
 import com.Odoo_Expenses.pages.*;
-import com.Odoo_Expenses.pages.Humeyra.EmployeeInfoPage;
-import com.Odoo_Expenses.pages.Humeyra.ExpenseReportPage;
-import com.Odoo_Expenses.pages.Humeyra.ExpenseReportSummaryPage;
+import com.Odoo_Expenses.pages.EmployeeInfoPage;
+import com.Odoo_Expenses.pages.ExpenseReportPage;
+import com.Odoo_Expenses.pages.ExpenseReportSummaryPage;
 
 
 public class

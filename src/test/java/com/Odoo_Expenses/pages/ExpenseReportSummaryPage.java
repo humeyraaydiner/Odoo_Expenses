@@ -1,4 +1,4 @@
-package com.Odoo_Expenses.pages.Humeyra;
+package com.Odoo_Expenses.pages;
 
 import com.Odoo_Expenses.utilities.Driver;
 import org.openqa.selenium.WebElement;
@@ -26,6 +26,9 @@ public class ExpenseReportSummaryPage {
 
     @FindBy(xpath = "//div[@class='o_notification_manager']")
     public WebElement popup;
+
+    @FindBy(xpath = "(//ul[@id='ui-id-3']/li)[2]/a")
+    public WebElement ashley;
 
 
 }

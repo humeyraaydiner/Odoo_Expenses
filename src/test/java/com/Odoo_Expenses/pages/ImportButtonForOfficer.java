@@ -1,4 +1,4 @@
-package com.Odoo_Expenses.pages.Humeyra;
+package com.Odoo_Expenses.pages;
 
 import com.Odoo_Expenses.utilities.Driver;
 import org.openqa.selenium.WebElement;
