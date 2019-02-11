@@ -6,6 +6,7 @@ import com.Odoo_Expenses.pages.Humeyra.ExpenseReportPage;
 import com.Odoo_Expenses.pages.Humeyra.ExpenseReportSummaryPage;
 
 
+
 public class
 Pages {
 
@@ -19,7 +20,7 @@ Pages {
         private ExpenseReportPage expenseReportPage;
         private EmployeeInfoPage employeeInfoPage;
         private ExpenseReportSummaryPage expenseReportSummaryPage;
-private ExpenseReportsToApprovePage expenseReportsToApprovePage;
+        private ExpenseReportsToApprovePage expenseReportsToApprovePage;
 
         private refusedReportsPage refusedReport;
 

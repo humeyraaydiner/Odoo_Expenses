@@ -35,7 +35,7 @@ public class ExpensesAnalysis extends TestBase {
 
     }
 
-     @Test
+    @Test
     public void verifyMeasureDropDownButton(){
          //   Verify after clicking "Expenses Analysis"
          // user should able to use "Measure" dropdown button the left top under "All Expenses" title.
@@ -46,18 +46,17 @@ public class ExpensesAnalysis extends TestBase {
          pages.main().ExpensesButton.click();
          BrowserUtils.wait(5);
          pages.expensesAnalysisPage().ExpensesAnalysis.click();
-
         // BrowserUtils.wait(5);
-        // BrowserUtils.waitForPageToLoad(10);
-         //extentLogger.info("Verify 'Measure dropdown button' is displayed");
-        //       BrowserUtils.waitForVisibility(pages.expensesAnalysisPage().MeasureButton,10);
-
+         //BrowserUtils.waitForPageToLoad(10);
+//        extentLogger.info("Verify 'Measure dropdown button' is displayed");
+//       BrowserUtils.waitForVisibility(pages.expensesAnalysisPage().MeasureButton,10);
          extentLogger.info("verify 'Measure' dropdown button is visible");
          verifyElementDisplayed(pages.expensesAnalysisPage().MeasureButton);
 
          extentLogger.info("verify 'Measure' dropdown button is clickable");
          pages.expensesAnalysisPage().MeasureButton.click();
-
-
-     }
+    }
 }
+
+
+
