@@ -20,6 +20,7 @@ public class ExpenseReportSummaryPage {
     public WebElement name;
 
     public ExpenseReportSummaryPage() {
+
         PageFactory.initElements (Driver.getDriver (), this);
     }
 }

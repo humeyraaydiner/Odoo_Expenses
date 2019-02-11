@@ -145,6 +145,20 @@ public class ExpensesToSummitTest extends TestBase {
 
 
 }
+//@Test
+//    public void Click(){
+//       // pages.mExpensesToSummitPage().ExpensesClick();
+//}
+@Test
+public void clicKTEST(){
+//    pages.login().signIn();
+//     BrowserUtils.wait(5);
+//   pages.login().expensesClick();
+pages.mExpensesToSummitPage().ExpensesClick();
+BrowserUtils.wait(5);
+pages.mExpensesToSummitPage().createButton.click();
+}
+
 
 }
 
