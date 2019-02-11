@@ -1,5 +1,6 @@
 package com.Odoo_Expenses.pages;
 
+import com.Odoo_Expenses.utilities.BrowserUtils;
 import com.Odoo_Expenses.utilities.Driver;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
