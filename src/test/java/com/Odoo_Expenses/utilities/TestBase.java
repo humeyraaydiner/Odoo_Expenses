@@ -25,6 +25,7 @@ import java.util.concurrent.TimeUnit;
 
 
         @BeforeMethod
+
         public void setupMethod() {
             driver = com.Odoo_Expenses.utilities.Driver.getDriver();
             pages = new Pages();

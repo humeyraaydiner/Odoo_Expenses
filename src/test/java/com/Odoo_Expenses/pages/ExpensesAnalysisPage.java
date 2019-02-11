@@ -21,6 +21,32 @@ public class ExpensesAnalysisPage {
     //@FindBy(xpath = "/html/body/div[1]/div[2]/div[1]/div[2]/div[1]/div[1]/button")
     public WebElement MeasureButton;
 
+    @FindBy(xpath = "//button[@class='btn btn-icon fa fa-lg fa-list-ul o_cp_switch_list']")
+    public WebElement ListIcon;
 
+     @FindBy(xpath = "(//div[@class='o_list_buttons']/button[1])")
+    //@FindBy(xpath = "/html/body/div[1]/div[2]/div[1]/div[2]/div[1]/div/button[1]")
+    public WebElement CreateButton;
+
+     @FindBy(xpath = "//div[@class='o_form_sheet_bg']")
+    public WebElement ExpenseForm;
+
+     @FindBy (xpath = "//input[@class='o_field_char o_field_widget o_input o_required_modifier']")
+    public WebElement ExpenseDescription;
+
+     @FindBy(xpath = "//div[@name='product_id']")
+    public WebElement Product;
+
+     @FindBy(xpath = "//ul[@class='ui-autocomplete ui-front ui-menu ui-widget ui-widget-content'][1]/li[2]/a")
+    public WebElement MenuItemExpense;
+
+     @FindBy(xpath = "//div[@name='employee_id']")
+    public WebElement Employee;
+
+   @FindBy(xpath = "//ul[@class='ui-autocomplete ui-front ui-menu ui-widget ui-widget-content'][4]/li[4]/a")
+    public WebElement MenuItemEmployee;
+
+   @FindBy(xpath = "//button[@accesskey='s']")
+    public WebElement SaveButton;
 
 }

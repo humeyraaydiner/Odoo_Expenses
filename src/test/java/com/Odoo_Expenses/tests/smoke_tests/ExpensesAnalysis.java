@@ -55,12 +55,8 @@ public class ExpensesAnalysis extends TestBase {
 
          extentLogger.info("verify 'Measure' dropdown button is clickable");
          pages.expensesAnalysisPage().MeasureButton.click();
-
-
-
-     }
-
-
-
-
+    }
 }
+
+
+

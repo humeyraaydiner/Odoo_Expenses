@@ -1,14 +1,12 @@
 package com.Odoo_Expenses.pages;
 
-import com.Odoo_Expenses.utilities.ConfigurationReader;
-import com.Odoo_Expenses.utilities.Driver;
-import com.Odoo_Expenses.utilities.Pages;
+import com.Odoo_Expenses.utilities.*;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 
 
-public class LoginPage extends Pages {
+public class LoginPage extends TestBase {
     public LoginPage() {
         PageFactory.initElements(Driver.getDriver(), this);
     }
@@ -27,13 +25,21 @@ public class LoginPage extends Pages {
 
     @FindBy(xpath = "(//button)[2]")
     public WebElement loginButton;
-
+///////////////////////////////////////////////////////////////////////////////////
+    @FindBy(xpath = "(//a[@class='oe_menu_toggler'])[6]")
+    public WebElement ExpensesButton;
 
     public void signIn()  {
         demo.click();
         email.sendKeys(ConfigurationReader.getProperty("username"));
         password.sendKeys(ConfigurationReader.getProperty("password"));
         loginButton.click();
+
+    }
+
+  public void expensesClick(){
+        signIn();
+     ExpensesButton.click();
 
     }
 
