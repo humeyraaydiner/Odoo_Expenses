@@ -34,7 +34,8 @@ public class ExpensesAnalysis extends TestBase {
         pages.expensesAnalysisPage().ExpensesAnalysis.click();
 
     }
-     @Test
+
+    @Test
     public void verifyMeasureDropDownButton(){
          //   Verify after clicking "Expenses Analysis"
          // user should able to use "Measure" dropdown button the left top under "All Expenses" title.

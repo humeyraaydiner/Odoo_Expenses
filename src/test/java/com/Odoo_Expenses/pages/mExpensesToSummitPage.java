@@ -68,7 +68,25 @@ public WebElement MyExpensesTitle;
    public WebElement ExpensesDateText;
 
    @FindBy(xpath = "(//td[@class='o_td_label'])[9]/label")
-   public WebElement saleOrderText;
+   public WebElement SaleOrderText;
+
+   @FindBy(xpath = "(//td[@class='o_td_label'])[14]//label")
+   public WebElement total;
+
+   @FindBy(xpath ="(//td[@class='o_td_label'])[15]//label" )
+   public WebElement paymentBy;
+
+   @FindBy(xpath = "//span[@class='o_stat_text']")
+   public WebElement document;
+
+   @FindBy(xpath = "//input[@id='o_field_input_20']")
+   public WebElement defaultPrice;
+
+   @FindBy(xpath = "//input[@id='o_field_input_27']")
+   public WebElement EmployeeDropDawn;
+
+   @FindBy(xpath = "//input[@id='o_field_input_19']")
+   public WebElement productDropdown;
 
 
 public   void ExpensesClick(){
@@ -91,6 +109,7 @@ public   void ExpensesClick(){
     }
 
     public void clickImportButton(){
-        importButton.click();
+
+    importButton.click();
     }
 }
