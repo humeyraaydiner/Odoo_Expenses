@@ -1,4 +1,4 @@
-package com.Odoo_Expenses.pages;
+package com.Odoo_Expenses.pages.Humeyra;
 
 import com.Odoo_Expenses.utilities.Driver;
 import org.openqa.selenium.WebElement;
@@ -6,6 +6,7 @@ import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 
 public class ExpenseReportPage {
+
     @FindBy( xpath = "//*[@id='oe_main_menu_navbar']/div[2]/ul[1]/li[9]/a/span" )
     public WebElement expensesLink;
     @FindBy( xpath = "//div//ul//a[@data-action-id='544']/span" )
@@ -16,4 +17,8 @@ public class ExpenseReportPage {
     public ExpenseReportPage() {
         PageFactory.initElements (Driver.getDriver (), this);
     }
+
 }
+
+
+//div//button[@class='btn btn-primary btn-sm o_list_button_add']

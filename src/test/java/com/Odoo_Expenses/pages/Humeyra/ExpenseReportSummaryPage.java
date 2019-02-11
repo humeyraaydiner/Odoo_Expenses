@@ -1,4 +1,4 @@
-package com.Odoo_Expenses.pages;
+package com.Odoo_Expenses.pages.Humeyra;
 
 import com.Odoo_Expenses.utilities.Driver;
 import org.openqa.selenium.WebElement;
@@ -6,7 +6,6 @@ import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 
 public class ExpenseReportSummaryPage {
-
 
     @FindBy( xpath = "/html/body/div[1]/div[2]/div[1]/div[2]/div[1]/div/button[1]" )
     public WebElement expenseReportSummaryLink;

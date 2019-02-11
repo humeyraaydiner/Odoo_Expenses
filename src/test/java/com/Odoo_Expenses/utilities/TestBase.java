@@ -25,12 +25,12 @@ import java.util.concurrent.TimeUnit;
 
 
         @BeforeMethod
+
         public void setupMethod() {
             driver = com.Odoo_Expenses.utilities.Driver.getDriver();
             pages = new Pages();
             driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
             driver.get(ConfigurationReader.getProperty("url"));
-            driver.manage().window().maximize();
         }
 
         @AfterMethod
