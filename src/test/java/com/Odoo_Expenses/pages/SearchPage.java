@@ -38,31 +38,33 @@ public class SearchPage {
     @FindBy(xpath = "(//div[@class='o_sub_menu_content']/div/ul/li)[10]")
     public WebElement ExpensesAnalysis;
 
+    @FindBy(xpath = "(//button[@class='o_dropdown_toggler_btn btn btn-sm dropdown-toggle'])[4]")
+    public WebElement groupBybutton;
+
+    @FindBy(xpath = "//li[@class='o_add_filter o_closed_menu']")
+    public WebElement addCustomFilter;
+
+    @FindBy(xpath = "(//button[@class='o_dropdown_toggler_btn btn btn-sm dropdown-toggle'])[5]")
+    public WebElement favoritesButton;
+
+    @FindBy(xpath = "(//li[@class='o_add_to_dashboard_link o_closed_menu'])")
+   public WebElement addtoDashboard;
+
+    @FindBy(xpath = "(//li[@class='o_save_search o_closed_menu'])")
+    public WebElement saveCurrentSearch;
+
+    @FindBy(xpath = "(//li[@class='o_add_custom_group o_closed_menu'])")
+    public WebElement addCustomGroup;
 
 
 
 
-    /*
 
 
 
 
 
-        page.searchFunctionality().allUpcominEvents.getText();
-        extentLogger.pass("all Events ");
 
-        page.searchFunctionality().allUpcominEvents.isDisplayed();
-        extentLogger.pass("Events are Displyed True");
-
-        extentLogger.info("user shoul be able to search by events name");
-        page.searchFunctionality().searchBox.sendKeys("Event 1" + Keys.ENTER);
-        extentLogger.pass("User Entered Events name and clicked On keyboard Enter button");
-        extentLogger.info("Verify Expected Event is Displeyed");
-
-        page.searchFunctionality().Event_1.isDisplayed();
-        extentLogger.pass("Event is Displeyd as Expected");
-
-     */
 
 
 }

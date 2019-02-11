@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ae76953d-fd09-4d4b-b3c5-10d2e143c4b0" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/Odoo_Expenses/pages/SearchPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/Odoo_Expenses/pages/SearchPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test-output/report.html" beforeDir="false" afterPath="$PROJECT_DIR$/test-output/report.html" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -11,46 +12,40 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FUSProjectUsageTrigger">
+    <session id="1269853497">
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="java" value="4" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="JAVA" value="4" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="java" value="309" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="JAVA" value="309" />
+        </counts>
+      </usages-collector>
+    </session>
+  </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/com/Odoo_Expenses/tests/smoke_tests/SearchTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1071">
-              <caret line="63" selection-start-line="63" selection-end-line="63" />
+            <state relative-caret-position="391">
+              <caret line="23" column="63" lean-forward="true" selection-start-line="14" selection-start-column="7" selection-end-line="23" selection-end-column="63" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/com/Odoo_Expenses/utilities/Driver.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
-              <caret line="24" column="48" selection-start-line="24" selection-start-column="48" selection-end-line="24" selection-end-column="48" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/com/Odoo_Expenses/pages/ExpensesAnalysisPage.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="260">
-              <caret line="21" column="36" selection-start-line="8" selection-start-column="4" selection-end-line="21" selection-end-column="36" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/com/Odoo_Expenses/pages/ExpenseReportsToApprovePage.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="102">
-              <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
             </state>
           </provider>
         </entry>
@@ -65,33 +60,20 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/com/Odoo_Expenses/tests/smoke_tests/ExpenseReportToApproveTest.java">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/Odoo_Expenses/pages/SearchPage.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="51">
-              <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
+            <state relative-caret-position="447">
+              <caret line="53" column="40" selection-start-line="53" selection-start-column="40" selection-end-line="53" selection-end-column="40" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#257#258#0" expanded="true" />
+                <element signature="e#322#323#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/com/Odoo_Expenses/utilities/ApplicationConstants.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="34">
-              <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/com/Odoo_Expenses/pages/MainPage.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/com/Odoo_Expenses/utilities/TestBase.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="-26">
@@ -99,6 +81,36 @@
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/Odoo_Expenses/tests/fuctional_tests/SearchFunctionalTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="107">
+              <caret line="108" column="22" lean-forward="true" selection-start-line="108" selection-start-column="22" selection-end-line="108" selection-end-column="22" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/Odoo_Expenses/tests/fuctional_tests/ExpensesAnalysis_functional.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="68">
+              <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/Odoo_Expenses/tests/fuctional_tests/ExpensesToSummit_functionalTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="68">
+              <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
             </state>
           </provider>
         </entry>
@@ -125,8 +137,9 @@
         <option value="$PROJECT_DIR$/src/test/java/com/Odoo_Expenses/pages/ExpensesPage.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/Odoo_Expenses/utilities/Pages.java" />
         <option value="$PROJECT_DIR$/.idea/workspace.xml" />
-        <option value="$PROJECT_DIR$/src/test/java/com/Odoo_Expenses/pages/SearchPage.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/Odoo_Expenses/tests/smoke_tests/SearchTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/Odoo_Expenses/pages/SearchPage.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/Odoo_Expenses/tests/fuctional_tests/SearchFunctionalTest.java" />
       </list>
     </option>
   </component>
@@ -235,7 +248,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1549918728678" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1549921646425" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -249,18 +262,18 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="TestNG.SearchTest.verifySearchProduct">
-    <configuration name="ExpensesAnalysis.verifyExpensesAnalysis" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="TestNG.SearchFunctionalTest.searchFilterButton">
+    <configuration name="SearchFunctionalTest.searchFilterButton" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
       <module name="Odoo_Expenses" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.Odoo_Expenses.tests.smoke_tests.*" />
+          <option name="PATTERN" value="com.Odoo_Expenses.tests.fuctional_tests.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.Odoo_Expenses.tests.smoke_tests" />
-      <option name="MAIN_CLASS_NAME" value="com.Odoo_Expenses.tests.smoke_tests.ExpensesAnalysis" />
-      <option name="METHOD_NAME" value="verifyExpensesAnalysis" />
+      <option name="PACKAGE_NAME" value="com.Odoo_Expenses.tests.fuctional_tests" />
+      <option name="MAIN_CLASS_NAME" value="com.Odoo_Expenses.tests.fuctional_tests.SearchFunctionalTest" />
+      <option name="METHOD_NAME" value="searchFilterButton" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -341,19 +354,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="TestNG.ExpensesAnalysis.verifyExpensesAnalysis" />
       <item itemvalue="TestNG.SearchTest.verifySearchFunc" />
       <item itemvalue="TestNG.SearchTest.VerifySearchFuncVisivleinAllModules" />
       <item itemvalue="TestNG.SearchTest.verifySearchProduct" />
       <item itemvalue="TestNG.SearchTest.advancedSearch" />
+      <item itemvalue="TestNG.SearchFunctionalTest.searchFilterButton" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.SearchFunctionalTest.searchFilterButton" />
         <item itemvalue="TestNG.SearchTest.verifySearchProduct" />
         <item itemvalue="TestNG.SearchTest.advancedSearch" />
         <item itemvalue="TestNG.SearchTest.VerifySearchFuncVisivleinAllModules" />
         <item itemvalue="TestNG.SearchTest.verifySearchFunc" />
-        <item itemvalue="TestNG.ExpensesAnalysis.verifyExpensesAnalysis" />
       </list>
     </recent_temporary>
   </component>
@@ -370,8 +383,14 @@
     </task>
     <servers />
   </component>
+  <component name="TestHistory">
+    <history-entry file="SearchFunctionalTest_searchFilterButton - 2019.02.11 at 16h 17m 39s.xml">
+      <configuration name="SearchFunctionalTest.searchFilterButton" configurationId="TestNG" />
+    </history-entry>
+  </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="Designer" order="0" />
       <window_info id="UI Designer" order="1" />
@@ -381,12 +400,12 @@
       <window_info active="true" content_ui="combo" id="Project" order="5" visible="true" weight="0.2409396" />
       <window_info id="Structure" order="6" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="TODO" order="0" weight="0.32982457" />
-      <window_info anchor="bottom" id="Terminal" order="1" visible="true" weight="0.32719547" />
+      <window_info anchor="bottom" id="Terminal" order="1" weight="0.32719547" />
       <window_info anchor="bottom" id="Event Log" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="3" show_stripe_button="false" />
       <window_info anchor="bottom" id="Message" order="4" />
       <window_info anchor="bottom" id="Find" order="5" weight="0.3286119" />
-      <window_info anchor="bottom" id="Run" order="6" weight="0.24645892" />
+      <window_info anchor="bottom" id="Run" order="6" visible="true" weight="0.24645892" />
       <window_info anchor="bottom" id="Debug" order="7" weight="0.39310345" />
       <window_info anchor="bottom" id="Cvs" order="8" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="9" weight="0.4" />
@@ -452,13 +471,65 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/Odoo_Expenses/tests/smoke_tests/SearchTest.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/Odoo_Expenses/utilities/Driver.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1071">
-          <caret line="63" selection-start-line="63" selection-end-line="63" />
+        <state relative-caret-position="225">
+          <caret line="24" column="48" selection-start-line="24" selection-start-column="48" selection-end-line="24" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/Odoo_Expenses/pages/ExpensesAnalysisPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="260">
+          <caret line="21" column="36" selection-start-line="8" selection-start-column="4" selection-end-line="21" selection-end-column="36" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/Odoo_Expenses/tests/fuctional_tests/ExpensesToSummit_functionalTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/Odoo_Expenses/tests/smoke_tests/SearchTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="23" column="63" lean-forward="true" selection-start-line="14" selection-start-column="7" selection-end-line="23" selection-end-column="63" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/Odoo_Expenses/pages/ExpenseReportsToApprovePage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/Odoo_Expenses/tests/smoke_tests/ExpenseReportToApproveTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/Odoo_Expenses/utilities/ApplicationConstants.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/Odoo_Expenses/pages/MainPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
         </state>
       </provider>
     </entry>
@@ -466,6 +537,35 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-26">
           <caret line="16" column="17" selection-start-line="16" selection-start-column="17" selection-end-line="16" selection-end-column="17" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/Odoo_Expenses/pages/SearchPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="447">
+          <caret line="53" column="40" selection-start-line="53" selection-start-column="40" selection-end-line="53" selection-end-column="40" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#257#258#0" expanded="true" />
+            <element signature="e#322#323#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/Odoo_Expenses/tests/fuctional_tests/ExpensesAnalysis_functional.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/Odoo_Expenses/tests/fuctional_tests/SearchFunctionalTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="107">
+          <caret line="108" column="22" lean-forward="true" selection-start-line="108" selection-start-column="22" selection-end-line="108" selection-end-column="22" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
