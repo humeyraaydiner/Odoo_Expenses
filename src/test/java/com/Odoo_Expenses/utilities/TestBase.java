@@ -30,6 +30,7 @@ import java.util.concurrent.TimeUnit;
             pages = new Pages();
             driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
             driver.get(ConfigurationReader.getProperty("url"));
+            driver.manage().window().maximize();
         }
 
         @AfterMethod

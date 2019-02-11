@@ -1,5 +1,6 @@
 package com.Odoo_Expenses.tests.smoke_tests;
 
+import com.Odoo_Expenses.pages.mExpensesToSummitPage;
 import com.Odoo_Expenses.utilities.BrowserUtils;
 import com.Odoo_Expenses.utilities.Driver;
 import com.Odoo_Expenses.utilities.TestBase;
@@ -115,6 +116,31 @@ public class ExpensesToSummitTest extends TestBase {
     System.out.println(pages.mExpensesToSummitPage().createButton.isDisplayed());
 
     extentLogger.info("Verify that import button is clickable");
+
+
+
+
+
+}
+@Test
+    public void ExpenseDescriptionTest(){
+    verifyCreateFunctionality();
+    extentLogger = report.createTest("Expense Desciription Table Test");
+    extentLogger.info("Verify That Expense Desciription  text is visiable");
+
+//    WebDriverWait wait = new WebDriverWait(driver, 10);
+//    wait.until(ExpectedConditions.invisibilityOfElementLocated(By.c));
+     BrowserUtils.verifyElementDisplayed(pages.mExpensesToSummitPage().ExpenseDesciriptionText);
+     System.out.println("ExpenseDesciription text is display");
+
+     extentLogger.info("product  text is visiable");
+     BrowserUtils.verifyElementDisplayed(pages.mExpensesToSummitPage().productText);
+
+     extentLogger.info("unit Price text is visiable");
+    // BrowserUtils.verifyElementDisplayed(pages.mExpensesToSummitPage().UnitPrice);
+
+    System.out.println(pages.mExpensesToSummitPage().UnitPrice.isDisplayed());
+
 
 
 

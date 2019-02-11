@@ -38,11 +38,25 @@ public WebElement MyExpensesTitle;
     @FindBy(xpath ="(//div[@class='o_sub_menu_content']/div/ul/li)[6]" )
     public WebElement ExpensesToSummitTitle;
 
+    @FindBy(xpath = "(//label[@class='o_form_label'])[1]")
+
+    public WebElement ExpenseDesciriptionText;
+
+    @FindBy(xpath = "(//td[@class='o_td_label']//label)[1]")
+    public WebElement productText;
+
+    @FindBy(xpath = "(//td[@class='o_td_label'])[2]")
+    public WebElement UnitPrice;
+
 
    // @FindBy(xpath ="(//li[@class='active'])[2]" )
     //public WebElement ExpensesToSummitTitle;
 
+@FindBy(xpath = "(//td[@class='o_td_label'])[3]/label")
+    public WebElement QuantityText;
 
+@FindBy(xpath = "(//td[@class='o_td_label'])[6]/label")
+    public WebElement EmployeeText;
 
 
 
